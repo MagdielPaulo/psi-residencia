@@ -1,0 +1,368 @@
+{
+"pe25h-001": {
+"t": "sus-leg",
+"h": "Lembre do piso mínimo de cada ente: um número para estados, outro maior para municípios.",
+"e": "A Lei Complementar nº 141/2012 fixa **pisos mínimos** (nunca tetos) de aplicação em ações e serviços públicos de saúde: os **Estados** aplicam no mínimo **12%** da arrecadação de impostos (art. 6º) e os **Municípios** no mínimo **15%** (art. 7º). Por isso a alternativa A é a única que traz as duas palavras \"mínimo\" e os percentuais na ordem certa.",
+"w": {
+"B": "Fala em \"máximo\" para os Estados. A LC 141 só estabelece pisos.",
+"C": "Troca piso por teto para os dois entes.",
+"D": "Os 15% dos Municípios também são mínimo, não máximo.",
+"E": "Inverte os percentuais: 12% é dos Estados e 15% dos Municípios."
+},
+"r": "LC nº 141/2012, arts. 6º e 7º; EC nº 29/2000."
+},
+"pe25h-002": {
+"t": "sus-leg",
+"h": "Procure a alternativa que contraria uma vedação expressa da CF sobre o setor privado.",
+"e": "O art. 199, § 2º, da Constituição diz o contrário da alternativa E: **é vedada** a destinação de recursos públicos para auxílios ou subvenções às instituições privadas **com fins lucrativos**. As demais estão corretas: financiamento pelo orçamento da seguridade social (art. 198, § 1º), colaborar na proteção do meio ambiente, inclusive o do trabalho (art. 200, VIII), rede regionalizada e hierarquizada com as três diretrizes (art. 198) e participar da política de saneamento básico (art. 200, IV).",
+"r": "Constituição Federal de 1988, arts. 198, 199 § 2º e 200."
+},
+"pe25h-003": {
+"t": "sus-pol",
+"h": "A Reforma Sanitária é tratada pela literatura como um processo que continua.",
+"e": "A Reforma Sanitária Brasileira é descrita por Jairnilson Paim como \"ideia–proposta–projeto–movimento–processo\": o SUS é uma das suas conquistas, mas o projeto (democratização da saúde, do Estado e da sociedade) **não se encerrou** com a Lei 8.080/90. Por isso E é a incorreta. As demais reproduzem a leitura crítica do movimento: atuação articulada da sociedade civil (A), a Reforma não se reduz ao SUS (B), subfinanciamento e estímulo ao setor privado como ameaças (C) e a defesa de políticas universalistas (D).",
+"r": "PAIM, J. S. Reforma Sanitária Brasileira: contribuição para a compreensão e crítica. Salvador/Rio: EDUFBA/Fiocruz, 2008."
+},
+"pe25h-004": {
+"t": "sus-pol",
+"h": "Educação permanente nasce do cotidiano do trabalho.",
+"e": "A Política Nacional de Educação Permanente em Saúde (Portaria GM/MS nº 198/2004, hoje com diretrizes na Portaria 1.996/2007) define a EPS como **aprendizagem no trabalho**, em que aprender e ensinar se incorporam ao cotidiano das organizações e do trabalho, a partir dos problemas enfrentados na realidade, com o objetivo de **transformar as práticas** profissionais e a organização do trabalho. Isso é exatamente a alternativa C.",
+"w": {
+"A": "Atualização técnica descolada da prática é educação continuada, não permanente.",
+"B": "A EPS acontece no serviço, integrada ao trabalho.",
+"D": "A EPS é articulada à rede de serviços.",
+"E": "Ações dirigidas aos usuários são educação em saúde, não EPS."
+},
+"r": "Portaria GM/MS nº 198/2004 e Portaria GM/MS nº 1.996/2007 (PNEPS)."
+},
+"pe25h-005": {
+"t": "sus-pol",
+"h": "A abordagem crítica olha para estrutura social, não para escolhas individuais.",
+"e": "A determinação social da saúde (tradição da medicina social latino-americana e da Comissão Nacional sobre os Determinantes Sociais da Saúde) entende que as **condições de vida e trabalho e as desigualdades socioeconômicas estruturam** o processo saúde-doença. As outras alternativas fazem o oposto: priorizam o biológico (A), o comportamento individual (B), a intervenção biomédica (D) ou tratam o social como secundário (E).",
+"r": "CNDSS. As causas sociais das iniquidades em saúde no Brasil, 2008; Lei 8.080/90, art. 3º."
+},
+"pe25h-006": {
+"t": "sus-leg",
+"h": "Confira cada afirmativa contra o texto do Decreto 7.508: RENAME (art. 26), referência (art. 10) e planejamento estadual (art. 18).",
+"e": "I é **verdadeira**: o Ministério da Saúde dispõe sobre a RENAME e os PCDT em âmbito nacional, observadas as diretrizes pactuadas na CIT (art. 26). III é **falsa**: o planejamento estadual é regionalizado \"a partir das **necessidades dos Municípios**\" (art. 18), não da União. A banca considerou II **verdadeira** (gabarito A: V-V-F).",
+"f": "O art. 10 do Decreto diz que os serviços hospitalares e ambulatoriais especializados \"serão referenciados pelas **Portas de Entrada** de que trata o art. 9º\". Os Serviços Especiais de Acesso Aberto são uma dessas portas (ao lado da atenção primária, urgência/emergência e atenção psicossocial), e foi por isso que a banca aceitou o item II como verdadeiro. Numa prova de outra banca, a troca de \"Portas de Entrada\" por um só tipo de porta poderia ser cobrada como falsa.",
+"r": "Decreto nº 7.508/2011, arts. 9º, 10, 18 e 26."
+},
+"pe25h-007": {
+"t": "sus-leg",
+"h": "O Decreto diz que o planejamento é obrigatório para o poder público e tem um efeito sobre o setor privado.",
+"e": "Pelo art. 15 do Decreto 7.508/2011, o planejamento da saúde é **ascendente e integrado**, do nível local até o federal, ouvidos os Conselhos de Saúde, e o § 1º diz que ele é **obrigatório para os entes públicos e indutor de políticas para a iniciativa privada**.",
+"w": {
+"A": "É ascendente (do local ao federal), não descendente.",
+"B": "É integrado, não fragmentado.",
+"C": "É obrigatório para os entes públicos.",
+"E": "Considera metas de saúde e é integrado entre os entes."
+},
+"r": "Decreto nº 7.508/2011, art. 15, caput e § 1º."
+},
+"pe25h-008": {
+"t": "sus-pol",
+"h": "Procure a palavra que fecha uma porta que a PNAB deixa aberta.",
+"e": "A PNAB 2017 recomenda população adscrita de **2.000 a 3.500 pessoas** por equipe, mas admite **outros arranjos de adscrição** conforme vulnerabilidades, riscos e dinâmica comunitária. Ao dizer \"vedando-se outros arranjos\", a alternativa B fica incorreta. As demais reproduzem a portaria, inclusive a C sobre o Nasf-AB: não é unidade física independente nem serviço de livre acesso.",
+"f": "O Nasf-AB citado na alternativa C foi substituído pelas equipes Multiprofissionais (eMulti), criadas pela Portaria GM/MS nº 635/2023. Vale saber para provas mais recentes.",
+"r": "Portaria GM/MS nº 2.436/2017 (PNAB), Anexo, itens 3.3 e 3.4."
+},
+"pe25h-009": {
+"t": "sus-pol",
+"h": "A PNVS é abrangente: alcança público e privado, inclusive produtos e serviços ligados à saúde.",
+"e": "A alternativa B reproduz a Resolução CNS nº 588/2018: a PNVS **incide sobre todos os níveis e formas de atenção**, todos os serviços públicos e privados e os estabelecimentos de produção e circulação de bens e tecnologias relacionados à saúde.",
+"w": {
+"A": "A gestão da PNVS é de responsabilidade exclusiva do poder público, não do setor privado.",
+"C": "A PNVS deve priorizar territórios, pessoas e grupos em situação de maior risco e vulnerabilidade (equidade).",
+"D": "O princípio é a descentralização político-administrativa.",
+"E": "O financiamento é tripartite, não bipartite."
+},
+"r": "Resolução CNS nº 588/2018 (Política Nacional de Vigilância em Saúde)."
+},
+"pe25h-010": {
+"t": "sus-leg",
+"h": "Em emergência e calamidade, quem garante o dinheiro extra da saúde indígena?",
+"e": "O Subsistema de Atenção à Saúde Indígena é financiado pela **União** com recursos próprios (art. 19-C da Lei 8.080), e a regra incluída pela Lei 14.021/2020 diz que, em situações emergenciais e de calamidade pública, **a União** deve assegurar aporte adicional de recursos não previstos nos planos dos DSEIs. Atribuir esse dever aos estados e municípios torna D incorreta. Estados e municípios atuam de forma **complementar** (B).",
+"r": "Lei nº 8.080/1990, Capítulo V (arts. 19-A a 19-H), com redação da Lei nº 14.021/2020."
+},
+"pe25h-011": {
+"t": "sus-leg",
+"h": "Uma das alternativas reproduz o texto antigo do art. 19-J, que a Lei 14.737/2023 substituiu.",
+"e": "A Lei 14.737/2023 deu **nova redação ao art. 19-J** da Lei 8.080: agora toda mulher tem direito a acompanhante maior de idade em consultas, exames e procedimentos em unidades públicas ou privadas (A), de livre indicação (E), com renúncia por escrito e 24 h de antecedência em caso de sedação (D) e autorização para agir em urgência e emergência (C). O texto da alternativa B (acompanhante da parturiente só no SUS) era a redação dada pela Lei 11.108/2005, que foi **substituída**. Por isso a banca a considerou incorreta.",
+"r": "Lei nº 8.080/1990, art. 19-J, com redação da Lei nº 14.737/2023."
+},
+"pe25h-012": {
+"t": "sus-leg",
+"h": "Verifique quem toma a iniciativa e quem aprova os investimentos do item II.",
+"e": "O art. 2º da Lei 8.142/90 lista quatro destinos para os recursos do FNS: (I) despesas de custeio e capital do MS e de seus órgãos e entidades; (II) investimentos previstos em lei orçamentária **de iniciativa do Poder Legislativo e aprovados pelo Congresso Nacional**; (III) investimentos previstos no Plano Quinquenal do MS; (IV) cobertura das ações e serviços a serem implementados por municípios, estados e DF. O item II está errado (fala em Poder Executivo e Conselhos de Saúde), então os corretos são **I, III e IV**.",
+"f": "A alternativa E foi impressa como \"I, III e V\", mas não existe item V; o gabarito oficial é E, que corresponde a I, III e IV.",
+"r": "Lei nº 8.142/1990, art. 2º."
+},
+"pe25h-013": {
+"t": "epi",
+"h": "Pense em desigualdade racial e educação entre idosos.",
+"e": "Segundo a PNAD Contínua 2016 (IBGE), o analfabetismo entre pessoas de 60 anos ou mais é muito **maior entre pretos e pardos** do que entre brancos, o que mostra que o envelhecimento carrega as iniquidades sociais. Por isso B está correta.",
+"w": {
+"A": "O envelhecimento é heterogêneo entre regiões e grupos sociais.",
+"C": "A expectativa de vida caiu em 2020–2021, mas voltou a subir a partir de 2022 (IBGE).",
+"D": "Há feminização da velhice: as mulheres são maioria entre os idosos.",
+"E": "A longevidade decorre da queda das doenças infecciosas e da mortalidade em geral; as doenças crônicas aumentam."
+},
+"r": "IBGE, PNAD Contínua 2016 (educação); IBGE, Tábuas de mortalidade."
+},
+"pe25h-014": {
+"t": "epi",
+"h": "Confira o denominador da taxa bruta de mortalidade.",
+"e": "A taxa bruta de mortalidade é o **número total de óbitos de residentes dividido pela população total residente**, por mil habitantes, em determinado local e ano (RIPSA). A alternativa E divide óbitos por óbitos e fala em faixa etária, o que descreve outro indicador (mortalidade proporcional por idade). As demais definições seguem a RIPSA.",
+"r": "RIPSA. Indicadores básicos para a saúde no Brasil: conceitos e aplicações. 2. ed. OPAS, 2008."
+},
+"pe25h-015": {
+"t": "sus-pol",
+"h": "Um hospital é um ponto só ou vários pontos de atenção?",
+"e": "A Portaria 4.279/2010 afirma que os hospitais **podem abrigar distintos pontos de atenção**: pronto atendimento, cirurgia ambulatorial, centro cirúrgico, maternidade, UTI, hospital-dia etc. Dizer que só abrigam um único ponto torna D incorreta. As demais reproduzem a portaria, inclusive E: todos os pontos são igualmente importantes e se diferenciam pela densidade tecnológica.",
+"r": "Portaria GM/MS nº 4.279/2010 (Redes de Atenção à Saúde), Anexo."
+},
+"pe25h-016": {
+"t": "sus-pol",
+"h": "Uma das alternativas descreve assistência, não vigilância.",
+"e": "A Vigilância em Saúde inclui detecção e resposta às emergências de saúde pública, vigilância e controle de doenças transmissíveis, vigilância de populações expostas a riscos ambientais e vigilância da saúde do trabalhador, entre outras. **Ofertar cuidado em tempo oportuno** é atribuição da rede de atenção (assistência), embora a vigilância deva se integrar a ela. Por isso E é a exceção.",
+"r": "Portaria GM/MS nº 1.378/2013 e Resolução CNS nº 588/2018 (PNVS)."
+},
+"pe25h-017": {
+"t": "sus-leg",
+"h": "Quem define quanto o SUS paga ao prestador privado?",
+"e": "Pelo art. 26 da Lei 8.080/90, os critérios e valores de remuneração e os parâmetros de cobertura assistencial são estabelecidos pela **direção nacional do SUS**, aprovados no Conselho Nacional de Saúde, e não pelos estabelecimentos contratados. Por isso B é incorreta. As demais estão na CF (art. 199, § 1º) e na Lei 8.080 (arts. 24, 25 e 26, § 4º).",
+"r": "CF/88, art. 199; Lei nº 8.080/1990, arts. 24 a 26."
+},
+"pe25h-018": {
+"t": "sus-pol",
+"h": "Uma das ações não trata de organizar o acesso do usuário aos serviços do SUS.",
+"e": "A Regulação do Acesso à Assistência organiza o acesso do usuário: regulação médica das urgências, controle de leitos e agendas, padronização de solicitações por protocolos e estabelecimento de referências entre unidades. A **regulação da saúde suplementar** (planos de saúde) cabe à ANS e se situa no plano da regulação de sistemas, não do acesso à assistência. Por isso C é a exceção.",
+"r": "Portaria GM/MS nº 1.559/2008 (Política Nacional de Regulação do SUS)."
+},
+"pe25h-019": {
+"t": "epi",
+"h": "Associe cada sistema ao documento que o alimenta.",
+"e": "O SIH-SUS é alimentado pela **Autorização de Internação Hospitalar (AIH)**, por isso E está correta.",
+"w": {
+"A": "SISREG é o sistema de regulação (marcação de consultas, exames e leitos), não de regionalização.",
+"B": "O SIM é alimentado pela Declaração de Óbito, de qualquer local de ocorrência.",
+"C": "O SINAN registra agravos de notificação compulsória; não pertence à ANS.",
+"D": "O SIH reúne internações de hospitais públicos e privados conveniados ao SUS."
+},
+"r": "Ministério da Saúde. Guia de Vigilância em Saúde; DATASUS."
+},
+"pe25h-020": {
+"t": "sus-pol",
+"h": "Associe cada princípio à sua ideia central: fazer o bem, não causar dano, autonomia, justiça.",
+"e": "A beneficência obriga a **promover o bem do outro**, reconhecendo seu valor moral; maximizar o bem implica reduzir o mal. É a definição da alternativa B (Beauchamp e Childress; Kipper e Clotet).",
+"w": {
+"A": "Não maleficência é não causar dano intencional, não seguir só a opinião do profissional.",
+"C": "A ética em saúde não se limita ao indivíduo; envolve relações e coletividade.",
+"D": "Distribuição justa de benefícios e deveres é o princípio da justiça.",
+"E": "Autodeterminação é o princípio da autonomia."
+},
+"r": "BEAUCHAMP, T.; CHILDRESS, J. Princípios de ética biomédica; KIPPER, D.; CLOTET, J. Princípios da beneficência e não maleficência (CFM, 1998)."
+},
+"pe25h-021": {
+"t": "desenv",
+"h": "A analogia das duas mãos batendo palmas aponta para interação, sem exceções.",
+"e": "A frase é de David Myers: genes e ambiente agem **juntos**, como duas mãos batendo palmas. Nessa visão interacionista, **nenhum comportamento é totalmente isento** de influência genética ou ambiental. Mesmo correr depende da maturação biológica e da prática. Por isso C é a incorreta.",
+"r": "MYERS, D. G. Psicologia (cap. Natureza, criação e diversidade humana)."
+},
+"pe25h-022": {
+"t": "desenv",
+"h": "Pense no 5º estágio psicossocial de Erikson.",
+"e": "Na teoria psicossocial de Erik Erikson, a crise da adolescência é **identidade versus confusão de papéis**. A resolução forma uma autodefinição que integra os papéis num senso coerente de si. Isso é a **identidade**.",
+"w": {
+"B": "Egocentrismo é um conceito de Piaget sobre o pensamento.",
+"C": "Intimidade versus isolamento é a crise do adulto jovem.",
+"D": "Moratória é o período de experimentação que antecede o compromisso identitário, não a característica em si.",
+"E": "Integridade (e não integração) é a crise da velhice."
+},
+"r": "ERIKSON, E. Identidade, juventude e crise; PAPALIA, D. Desenvolvimento humano."
+},
+"pe25h-023": {
+"t": "basic",
+"h": "A mesma imagem pode ser vista de dois jeitos, dependendo do que vira figura.",
+"e": "A imagem é a clássica figura ambígua \"minha esposa e minha sogra\" (Boring, 1930): dependendo de onde se fixa a atenção, vê-se uma moça de perfil ou uma senhora idosa. É um exemplo da **organização figura-fundo** estudada pela Gestalt num **estímulo ambíguo**: o mesmo estímulo admite duas organizações perceptivas.",
+"r": "Psicologia da Gestalt; MYERS, D. G. Psicologia (cap. Percepção)."
+},
+"pe25h-024": {
+"t": "basic",
+"h": "Na seca, falta comida. Qual é a base da pirâmide?",
+"e": "Na hierarquia de Maslow, as **necessidades fisiológicas** (fome, sede) estão na base e dominam o comportamento quando não satisfeitas. O saque em contexto de miséria extrema expressa a busca pelo básico. As outras alternativas atribuem a ação a necessidades superiores (segurança, amor, autorrealização), que só ganham força depois que as fisiológicas estão atendidas.",
+"r": "MASLOW, A. Motivação e personalidade."
+},
+"pe25h-025": {
+"t": "basic",
+"h": "Paul Ekman chama essas emoções de básicas. Elas seriam aprendidas ou universais?",
+"e": "Nojo, raiva, medo, felicidade, tristeza e surpresa são as **emoções básicas** descritas por Paul Ekman, reconhecidas em diferentes culturas e consideradas **inatas e universais**, não aprendidas. Por isso E é incorreta. B descreve a teoria dos dois fatores de Schachter e Singer (excitação física + rótulo cognitivo); D refere-se à angústia como afeto fundamental na psicanálise.",
+"r": "EKMAN, P. A linguagem das emoções; SCHACHTER, S.; SINGER, J. (1962)."
+},
+"pe25h-026": {
+"t": "hosp",
+"h": "O texto é uma crítica ao modelo clínico tradicional fora do consultório.",
+"e": "As alternativas reproduzem a revisão crítica da clínica psicológica (Dimenstein, Spink): a clínica é muitas vezes reduzida à psicoterapia, as teorias privilegiam o intrapsíquico e um sujeito abstrato, e propõe-se uma subjetividade entendida como construção social e histórica. A alternativa E é incorreta porque o modelo clínico tradicional, de consultório, **não está em consonância** com a atuação em hospitais e serviços de saúde; essa inadequação é justamente o ponto da crítica.",
+"r": "DIMENSTEIN, M. O psicólogo e o compromisso social no contexto da saúde coletiva. Psicologia em Estudo, 2001; SPINK, M. J. Psicologia social e saúde."
+},
+"pe25h-027": {
+"t": "teorias",
+"h": "Os critérios de cura de uma psicoterapia derivam de onde?",
+"e": "A banca considerou incorreta a D. Os critérios de cura variam conforme o método e a teoria de base, mas devem ser coerentes com a teoria, e **não tomados do empirismo pessoal do terapeuta**. As alternativas A, B e C trazem definições usuais de psicoterapia (tratamento por meios psicológicos, ato de escuta voltado ao contexto relacional, alívio de sintomas e reequilíbrio).",
+"f": "A alternativa E usa \"sempre\" (\"têm, sempre, estreita relação com a dinâmica familiar\"), palavra que costuma indicar erro. Mesmo assim a banca a manteve como correta e não anulou a questão. Fique atenta a esse estilo da UPENET.",
+"r": "Gabarito oficial UPENET/IAUPE 2025."
+},
+"pe25h-028": {
+"t": "psican",
+"h": "A psicanálise se define em oposição à sugestão e à educação.",
+"e": "Freud diferencia a análise de qualquer ação **educativa ou sugestiva**: o analista não deve ocupar o lugar de educador nem usar a transferência para impor princípios. A alternativa B, ao falar em \"princípios educativos\" que transpõem o inconsciente para a consciência, é incorreta. As demais estão em Freud: atenção flutuante como contrapartida da associação livre (A, C), transferência como resistência e o \"atuar em vez de recordar\" (D, \"Recordar, repetir e elaborar\", 1914) e o objetivo de preencher lacunas da memória vencendo as resistências (E).",
+"r": "FREUD, S. A dinâmica da transferência (1912); Recomendações ao médico que pratica a psicanálise (1912); Recordar, repetir e elaborar (1914)."
+},
+"pe25h-029": {
+"t": "teorias",
+"h": "A TCC trabalha com tarefas; Rogers privilegia a relação vivida.",
+"e": "I descreve a **TCC**, estruturada em metas e **tarefas** (inclusive de casa). II descreve a **Terapia Centrada na Pessoa** de Rogers, que privilegia a experiência vivida na relação terapêutica (congruência, empatia, aceitação) mais do que o conteúdo verbal. III fica com a **Gestalt-terapia**, que trabalha a awareness e a responsabilidade do cliente por suas escolhas. Logo: A–II, B–III, C–I.",
+"r": "ROGERS, C. Tornar-se pessoa; PERLS, F. Gestalt-terapia explicada; BECK, J. Terapia cognitivo-comportamental."
+},
+"pe25h-030": {
+"t": "hosp",
+"h": "Três dessas alternativas aparecem em quase toda definição de atendimento psicológico hospitalar. Qual soa como consultório?",
+"e": "O atendimento psicológico hospitalar investiga a **capacidade de adaptação** do paciente à hospitalização, o **nível de adesão** ao tratamento, os **problemas vivenciados no hospital** e o **relacionamento paciente–acompanhante–equipe**. \"Enfrentamento do funcionamento improdutivo baseado na transferência pessoal\" não é eixo orientador da psicologia hospitalar. Por isso C é a incorreta.",
+"r": "ANGERAMI-CAMON, V. A. (org.). Psicologia hospitalar: teoria e prática; SIMONETTI, A. Manual de psicologia hospitalar."
+},
+"pe25h-031": {
+"t": "hosp",
+"h": "A banca escolheu a alternativa que fala do lugar e da adequação da intervenção.",
+"e": "Para a banca, a psicologia hospitalar se define por buscar uma **intervenção precisa e adequada ao ambiente hospitalar**, isto é, pela adaptação da prática psicológica às condições do hospital (tempo de internação, rotina, equipe). As demais alternativas descrevem objetivos parciais ou genéricos (enfoque psíquico de problema físico, visão biopsíquica, suporte diante da morte) ou algo que não é atribuição do psicólogo (delimitar o convívio com familiares).",
+"f": "Em Simonetti, a psicologia hospitalar é definida como o campo de entendimento e tratamento dos aspectos psicológicos em torno do adoecimento. Essa definição ampla não aparece literalmente nas alternativas; a banca ficou com a A.",
+"r": "ANGERAMI-CAMON, V. A. Psicologia hospitalar; SIMONETTI, A. Manual de psicologia hospitalar; Gabarito oficial 2025."
+},
+"pe25h-032": {
+"t": "hosp",
+"h": "Angerami-Camon: escuta e empatia voltadas para o quê?",
+"e": "Na proposta de Angerami-Camon, de base fenomenológico-existencial, a psicologia hospitalar busca **minimizar o sofrimento provocado pela hospitalização**, por meio da escuta e da empatia, para que o paciente possa ressignificar sua experiência. O foco é o **sofrimento do paciente**. A mesma ideia foi cobrada em 2023: \"direcionamos nossa atenção para o sofrimento, segundo a escuta e a empatia\".",
+"r": "ANGERAMI-CAMON, V. A. (org.). Psicologia hospitalar: teoria e prática. São Paulo: Cengage, 2010."
+},
+"pe25h-033": {
+"t": "hosp",
+"h": "Qual política busca devolver nome, história e protagonismo ao paciente?",
+"e": "A despersonalização (o paciente vira número, leito ou diagnóstico) é descrita por Angerami-Camon. Revertê-la é promover a **humanização hospitalar**, que resgata a singularidade e o protagonismo do sujeito, em consonância com a Política Nacional de Humanização (HumanizaSUS).",
+"r": "ANGERAMI-CAMON, V. A. Psicologia hospitalar; Ministério da Saúde. Política Nacional de Humanização, 2003."
+},
+"pe25h-034": {
+"t": "multi",
+"h": "Lembre do princípio hologramático de Morin.",
+"e": "Os princípios do pensamento complexo de Edgar Morin orientam a transdisciplinaridade. O **princípio hologramático** diz que não só a parte está no todo, como **o todo está inscrito na parte** (como cada célula carrega o genoma inteiro). A alternativa B nega isso e é a incorreta. C é o princípio da retroação, D o recursivo, E o dialógico (ordem/desordem/organização) e A o sistêmico.",
+"r": "MORIN, E. Os sete saberes necessários à educação do futuro; Introdução ao pensamento complexo."
+},
+"pe25h-035": {
+"t": "palia",
+"h": "Kübler-Ross avisa: este estágio não é felicidade.",
+"e": "O trecho é de Elisabeth Kübler-Ross sobre o estágio de **aceitação**: \"não se confunda aceitação com um estágio de felicidade. É quase uma fuga de sentimentos. É como se a dor tivesse esvanecido, a luta tivesse cessado...\".",
+"r": "KÜBLER-ROSS, E. Sobre a morte e o morrer, cap. VII."
+},
+"pe25h-036": {
+"t": "palia",
+"h": "Uma das premissas foi \"inventada\" com um termo da psicanálise.",
+"e": "Entre os princípios dos cuidados paliativos (OMS; Manual da ANCP) estão: prevenção e controle de sintomas, intervenção psicossocial e espiritual, paciente e família como unidade de cuidado, **promoção da autonomia e da independência** e comunicação com trabalho interdisciplinar. \"Independência **transferencial**\" não existe nesses princípios. Por isso D é a incorreta.",
+"r": "ANCP. Manual de Cuidados Paliativos, 2. ed., 2012; OMS, 2002."
+},
+"pe25h-037": {
+"t": "palia",
+"h": "Sintomas como insônia durante o luto têm relação com a perda.",
+"e": "Insônia, alterações de apetite e outros sintomas são **reações esperadas do próprio processo de luto**, não sinais de uma doença preexistente independente. Por isso A é incorreta. C descreve o **Modelo do Processo Dual** (Stroebe e Schut), com oscilação entre orientação para a perda e para a restauração; D, as cinco fases de Kübler-Ross; E, o luto não reconhecido socialmente (por exemplo, poucos dias de licença).",
+"r": "STROEBE, M.; SCHUT, H. (1999); KÜBLER-ROSS, E. Sobre a morte e o morrer; CASELLATO, G. Dor silenciosa ou dor silenciada?"
+},
+"pe25h-038": {
+"t": "palia",
+"h": "O luto que começa antes da perda real.",
+"e": "É o **luto antecipatório** (Lindemann; Rando): processo vivido por paciente e família entre o diagnóstico e a morte, diante da ameaça progressiva de perda. Pode ter as reações das primeiras fases do luto descritas por Bowlby (torpor, anseio e protesto, desespero).",
+"w": {
+"A": "Luto crônico é o prolongado e intenso após a perda.",
+"C": "Luto adiado é aquele cuja expressão é postergada depois da perda.",
+"D": "Luto inibido é o de pouca ou nenhuma manifestação após a perda."
+},
+"r": "RANDO, T. A. Loss and anticipatory grief; BOWLBY, J. Perda: tristeza e depressão; FRANCO, M. H. P. (org.). Formação e rompimento de vínculos."
+},
+"pe25h-039": {
+"t": "palia",
+"h": "Ligue cada perda ao que ela ameaça: autonomia, quem depende de mim, planos, corpo, vínculo.",
+"e": "Medo da **dependência** é perder a autonomia para as atividades íntimas (II). Medo pelos **familiares** é a preocupação com as condições financeiras e o desenvolvimento dos que dependem do doente (V). Medo de perder **metas** é perder as expectativas e planos, como ver a formatura de um filho (III). Medo da **dor/mutilação** é perder funções do corpo (IV). Medo da **morte** é perder o acolhimento, vivido como abandono, separação ou aniquilamento (I). Resultado: A–II, B–V, C–III, D–IV, E–I.",
+"r": "ANGERAMI-CAMON, V. A. (org.). Psicologia hospitalar; Gabarito oficial 2025."
+},
+"pe25h-040": {
+"t": "hosp",
+"h": "O psicólogo na UTI favorece relações horizontais ou hierárquicas?",
+"e": "Na UTI, o psicólogo acolhe a equipe, oferece escuta terapêutica, facilita a comunicação entre equipe, família e paciente e ajuda na elaboração do processo de morte. Ele trabalha para **horizontalizar** a comunicação; \"estratégias hierárquicas\" contrariam essa lógica interdisciplinar. Por isso D é a incorreta.",
+"r": "ANGERAMI-CAMON, V. A. (org.). Psicologia hospitalar; CFP. Referências técnicas para atuação de psicólogas(os) nos serviços hospitalares do SUS, 2019."
+},
+"pe25h-041": {
+"t": "hosp",
+"h": "Religiosidade usada como recurso para lidar com a doença tem um nome técnico.",
+"e": "A literatura sobre doença renal crônica fala em **enfrentamento (coping) religioso/espiritual**, positivo ou negativo (Pargament; Panzini e Bandeira). O coping religioso positivo associa-se a melhor qualidade de vida; o negativo (sentir-se punido ou abandonado por Deus) associa-se a mais ansiedade e depressão.",
+"r": "PANZINI, R.; BANDEIRA, D. Coping (enfrentamento) religioso/espiritual. Rev. Psiq. Clín., 2007; PARGAMENT, K. The psychology of religion and coping."
+},
+"pe25h-042": {
+"t": "psican",
+"h": "Todas as afirmações estão no verbete \"Inconsciente\" de Laplanche e Pontalis.",
+"e": "As cinco afirmações resumem o inconsciente no sentido tópico freudiano: seus conteúdos são **representantes das pulsões** (I); regidos pelos **processos primários**, condensação e deslocamento (III); tendem a retornar à consciência, mas só chegam ao pré-consciente/consciente em **formações de compromisso** (II) e **deformados pela censura** (IV); e a separação entre inconsciente e pré-consciente decorre do **recalque infantil** (V). Logo, as cinco são verdadeiras.",
+"r": "LAPLANCHE, J.; PONTALIS, J.-B. Vocabulário da psicanálise, verbete \"Inconsciente\"; FREUD, S. O inconsciente (1915)."
+},
+"pe25h-043": {
+"t": "psican",
+"h": "Transferência e projeção são a mesma coisa?",
+"e": "No Vocabulário de Laplanche e Pontalis, a projeção é uma defesa arcaica que localiza no exterior a origem de um desprazer (A), que aparece também em formas normais como a mitologia, o animismo e a superstição (C), e que consiste em atribuir ao outro desejos que o sujeito recusa em si (D). Os autores advertem contra **reduzir a transferência a uma projeção** sobre o analista: a transferência é uma repetição de protótipos infantis na relação analítica. Por isso E é incorreta.",
+"r": "LAPLANCHE, J.; PONTALIS, J.-B. Vocabulário da psicanálise, verbetes \"Projeção\" e \"Transferência\"."
+},
+"pe25h-044": {
+"t": "teorias",
+"h": "Rogers fixou uma idade para a formação do self?",
+"e": "Para Rogers, o self (autoconceito) se diferencia gradualmente do campo perceptivo a partir das interações do organismo com o meio, especialmente as avaliações de pessoas significativas. Ele **não fixa os quatro anos** como marco da constituição do self. Por isso A é incorreta. As demais estão em Rogers: o self organiza a experiência (B), pode introjetar valores alheios como se fossem próprios (as condições de valor), percebendo a experiência de forma distorcida (C), busca consistência (D) e o organismo tende a se comportar de modo congruente com o self (E).",
+"r": "ROGERS, C. Terapia centrada no cliente (1951), cap. 11; HALL, C.; LINDZEY, G. Teorias da personalidade."
+},
+"pe25h-045": {
+"t": "psicopat",
+"h": "Alucinações ao adormecer e ao acordar são comuns em pessoas sem transtorno.",
+"e": "O DSM-5 diz que alucinações **hipnagógicas** (ao adormecer) e **hipnopômpicas** (ao despertar) podem ocorrer como parte da experiência normal e **não são, por si, sinal de psicose**. Por isso C é incorreta. As outras reproduzem o DSM-5: delírios podem ter temas variados (A); delírio bizarro é implausível e incompreensível para pares da mesma cultura (B); alucinações são vívidas, claras e involuntárias (D).",
+"r": "APA. DSM-5, capítulo Espectro da esquizofrenia e outros transtornos psicóticos, características principais."
+},
+"pe25h-046": {
+"t": "smental",
+"h": "Na lógica de redução de danos, a abstinência é a única meta?",
+"e": "A Política do Ministério da Saúde para Atenção Integral a Usuários de Álcool e outras Drogas (2003) adota a **redução de danos**: a abstinência **não é condição nem objetivo único** do tratamento; a meta é a qualidade de vida e a autonomia. Por isso D é incorreta. As demais seguem a lógica territorial e intersetorial da RAPS: olhar integral (A), cuidado na comunidade (B), territorialização e vínculo (C) e parcerias para a cidadania (E).",
+"r": "Ministério da Saúde. A política do MS para atenção integral a usuários de álcool e outras drogas, 2003; Portaria GM/MS nº 3.088/2011 (RAPS)."
+},
+"pe25h-047": {
+"t": "aval",
+"h": "\"Teste projetivo temático\" que usa interpretação de quadros e relatos.",
+"e": "O **TAT, Teste de Apercepção Temática** (Murray), pede que o sujeito conte histórias a partir de pranchas e revela conflitos, desejos, defesas e a dinâmica das motivações. O texto fala em \"teste projetivo temático\" e interpretação de quadros, o que identifica o TAT.",
+"w": {
+"A": "O PMK (Mira y López) é um teste expressivo-motor, de traçados.",
+"B": "O HTP é projetivo gráfico (desenho), não temático.",
+"D": "Reconstrução de figuras não é técnica projetiva temática.",
+"E": "O Rorschach é projetivo, mas usa manchas de tinta sem tema."
+},
+"r": "MURRAY, H. Thematic Apperception Test (1943); CUNHA, J. A. Psicodiagnóstico-V."
+},
+"pe25h-048": {
+"t": "aval",
+"h": "Qual alternativa pede para ignorar o contexto, quando as diretrizes mandam considerá-lo?",
+"e": "As diretrizes internacionais para uso de testes (International Test Commission), adotadas também pelo CFP, exigem que o profissional conheça e **considere o contexto social, cultural e político** em que o teste é usado, pois ele interfere no resultado, na interpretação e no uso. A alternativa A propõe desvincular-se desse contexto, o que não se deve fazer. As demais (B a E) são competências exigidas.",
+"r": "International Test Commission. Diretrizes para o uso de testes; Resolução CFP nº 31/2022 (avaliação psicológica)."
+},
+"pe25h-049": {
+"t": "social",
+"h": "A crítica de Judith Butler é dirigida à matriz heterossexual.",
+"e": "A literatura sobre transexualidade de base crítica (Berenice Bento, Judith Butler) critica a **heterossexualidade como matriz de inteligibilidade** do gênero, isto é, a ideia de que só são legítimos corpos e desejos alinhados à norma binária heterossexual. Pessoas trans não reivindicam que essa matriz seja mantida. Por isso E é incorreta.",
+"f": "As alternativas A a D são redigidas de forma pouco clara, mas expressam reivindicações de despatologização e autonomia presentes nessa literatura. Desde 2018 a OMS (CID-11) não classifica mais a incongruência de gênero como transtorno mental, e a Resolução CFP nº 01/2018 orienta a prática dos psicólogos nesse sentido.",
+"r": "BENTO, B. A reinvenção do corpo: sexualidade e gênero na experiência transexual, 2006; BUTLER, J. Problemas de gênero; Resolução CFP nº 01/2018."
+},
+"pe25h-050": {
+"t": "etica",
+"h": "Documento que informa comparecimento, acompanhamento e horários, sem diagnóstico.",
+"e": "A **Declaração** informa fatos objetivos do atendimento: comparecimento do atendido e/ou acompanhante, que há acompanhamento psicológico e as condições do atendimento (tempo, dias, horários). Não registra sintomas nem diagnóstico (isso seria atestado ou relatório).",
+"f": "A Resolução CFP nº 07/2003, citada na questão, foi revogada pela **Resolução CFP nº 06/2019**, que manteve a declaração com essa mesma finalidade. Em provas recentes, cite a 06/2019.",
+"r": "Resolução CFP nº 07/2003 (revogada) e Resolução CFP nº 06/2019 (Manual de Elaboração de Documentos Escritos)."
+}
+}

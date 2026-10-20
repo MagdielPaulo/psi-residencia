@@ -1,0 +1,76 @@
+PSI RESIDÊNCIA — quiz de provas de residência em Psicologia
+===========================================================
+
+COMO ABRIR
+  Dê dois cliques em "index.html". Abre no navegador (Chrome, Edge ou Firefox).
+  Não precisa de internet (com internet, só as fontes ficam mais bonitas).
+  Mantenha as pastas "dados", "img" e "fontes" junto do index.html.
+  Funciona no computador, no tablet e no celular (no celular, abra o
+  index.html pelo navegador com as pastas junto).
+
+ONDE FICA O PROGRESSO
+  Respostas, caderno de erros, revisão, anotações e XP ficam salvos
+  automaticamente NESTE navegador, neste computador.
+  - Use sempre o mesmo navegador para abrir o arquivo.
+  - Limpar os dados de navegação apaga o progresso.
+  - Para garantir: Ajustes (engrenagem) > "Baixar cópia (.json)" de vez em quando.
+    Para restaurar ou levar para outro computador: "Importar cópia".
+
+O QUE TEM
+  - 1.015 questões em 6 blocos:
+      SES-PE (UPE/IAUPE, 2017 a 2025) ........ 530
+      SES-DF (IADES, 2024, 6 programas) ...... 200
+      Goiás (UFG / SES-GO, 2020 e 2023) ...... 100
+      EBSERH (FGV 2025, IBFC 2023) ........... 105
+      Rio de Janeiro (SMS-Rio / Pinel) ........ 60
+      Santa Catarina (Barra Velha) ............ 20
+  - Gabarito oficial em todas. Questões anuladas aparecem marcadas e não contam ponto.
+  - TODAS as questões têm dica, explicação e fonte (lei, resolução do CFP,
+    DSM-5, autores). Quando a banca deu um gabarito discutível ou a prova
+    tinha erro de impressão, isso aparece num aviso amarelo na explicação.
+  - Caderno de erros com "por que errei", revisão espaçada (1, 3, 7, 16, 35 dias),
+    simulado cronometrado, treino por tema, favoritas, anotações, XP, níveis e conquistas.
+
+RESUMOS (menu lateral / barra de baixo)
+  - Mapas mentais de 15 temas (SUS, RAPS, ética, psicopatologia, psicanálise,
+    luto e paliativos, grupos, desenvolvimento...). Cada ramo mostra quantas
+    questões do banco tratam daquilo e treina só elas com um toque.
+    Dá pra imprimir ou salvar em PDF.
+  - Flashcards com revisão espaçada: 126 cards prontos por tema, um baralho
+    automático com as questões que ela errou, as questões que ela salvar
+    ("Virar flashcard") e cards que ela mesma escrever.
+  - O que mais cai: ranking dos assuntos mais cobrados (SES-PE, cada bloco
+    ou todas), o acerto dela em cada um e os pontos fracos.
+
+EXPLICAÇÕES DESTACADAS
+  - Ponto-chave em destaque, análise, por que as outras estão erradas,
+    aviso de comando invertido (INCORRETA/EXCETO), alerta de termo absoluto
+    na alternativa errada, palavras-chave, fundamento e "esse assunto cai
+    em N questões" com botão para treinar.
+
+AJUSTES (ícone de engrenagem)
+  - Tema: automático, claro, sépia (cansa menos a vista) ou escuro;
+    opção de alto contraste.
+  - Fonte: Moderna (Inter), Alta legibilidade (Atkinson Hyperlegible)
+    ou Livro (Literata); tamanho do texto, espaço entre linhas e largura.
+  - Reduzir animações, modo foco (esconde XP e nível), responder com um
+    toque, meta diária, nome na saudação, questões por treino misto.
+  - Apagar dados: zerar respostas de tudo, de um bloco ou de uma prova;
+    apagar anotações; limpar favoritas; zerar XP; ou começar do zero.
+    A última exclusão sempre pode ser desfeita.
+  - No computador, atalhos: A–E (ou 1–5) marcam, Enter confirma,
+    setas navegam, H dica, F favorita, X riscar.
+
+AVISOS SOBRE OS GABARITOS
+  - EBSERH 2025 (FGV) e Barra Velha/SC: o gabarito disponível na pasta era o
+    PRELIMINAR. Pode ter havido troca ou anulação depois.
+  - SES-PE 2025 e SES-PE 2023 (Atenção Básica e Saúde Coletiva): gabaritos
+    definitivos baixados do site da UPE (upenet.com.br).
+  - As 2 provas da EBSERH HU-UNIFAP 2022 ficaram de fora porque não havia
+    gabarito para elas.
+  - SES-DF Terapia Intensiva, questões 98 e 99: o caderno original não trouxe
+    o caso a que elas se referem (erro da própria prova).
+
+ATUALIZAÇÕES
+  Quando chegarem novas versões, basta substituir os arquivos.
+  O progresso salvo no navegador continua lá.

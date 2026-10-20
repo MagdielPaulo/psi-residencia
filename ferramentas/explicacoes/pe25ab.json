@@ -1,0 +1,328 @@
+{
+"pe25ab-001": {
+"t": "sus-leg",
+"h": "O Decreto exige cinco tipos de ações e serviços. Compare a alternativa D com a lista completa.",
+"e": "O art. 5º do Decreto 7.508/2011 diz que, para ser instituída, a Região de Saúde deve conter no mínimo ações e serviços de: **atenção primária; urgência e emergência; atenção psicossocial; atenção ambulatorial especializada e hospitalar; e vigilância em saúde**. A alternativa D omite a atenção **hospitalar**, e nenhuma outra completa a lista. Por isso a resposta é E.",
+"r": "Decreto nº 7.508/2011, art. 5º."
+},
+"pe25ab-002": {
+"t": "sus-pol",
+"h": "Questão anulada.",
+"e": "Questão **anulada** pela banca. Para estudo: as quatro políticas listadas (População Negra, Populações do Campo, da Floresta e das Águas, População em Situação de Rua e Povo Cigano/Romani) aparecem nas publicações do Ministério da Saúde sobre **políticas de promoção da equidade** no SUS.",
+"r": "Ministério da Saúde. Políticas de promoção da equidade em saúde, 2013; Portaria GM/MS nº 4.384/2018 (Povo Cigano/Romani)."
+},
+"pe25ab-003": {
+"t": "epi",
+"h": "A banca somou todos os casos existentes ao longo do período e dividiu pela população.",
+"e": "Para a banca, a prevalência é o total de casos existentes no período: 100 casos antigos + 150 novos = 250 casos em 5.000 pessoas, ou seja, **50/1.000**. Atenção: a prevalência pontual no início do estudo seria 100/5.000 = 20/1.000 (alternativa C). O gabarito usou a prevalência de período, que inclui todos os casos ao longo dos 10 anos.",
+"f": "Se a questão perguntasse \"prevalência no início do estudo\", a resposta seria 20/1.000. Leia sempre o recorte de tempo pedido.",
+"r": "ROUQUAYROL, M. Z.; GURGEL, M. Epidemiologia & Saúde (medidas de frequência)."
+},
+"pe25ab-004": {
+"t": "epi",
+"h": "Incidência usa só casos novos e só pessoas em risco no início.",
+"e": "Incidência = casos novos ÷ população **em risco** no início do período. Os 100 que já tinham DRC não estão em risco de \"adoecer de novo\", então o denominador é 5.000 − 100 = 4.900. São 150 casos novos ÷ 4.900 = 0,0306, ou seja, **30,6 por 1.000** em 10 anos.",
+"r": "ROUQUAYROL, M. Z.; GURGEL, M. Epidemiologia & Saúde."
+},
+"pe25ab-005": {
+"t": "epi",
+"h": "Prevalência ≈ incidência × duração. O que encurta a duração da doença?",
+"e": "A prevalência depende da incidência e da **duração** da doença. Ela **diminui** quando a doença dura menos, seja por cura rápida ou por **morte** (aumento da letalidade, item II). Aumentam a prevalência: aumento da incidência (I), envelhecimento populacional em doenças crônicas (III) e aumento da sobrevida sem cura (V). Natalidade elevada (IV) não está entre os fatores clássicos de redução. Logo, apenas **um** item diminui a prevalência.",
+"r": "PEREIRA, M. G. Epidemiologia: teoria e prática (fatores que influenciam a prevalência)."
+},
+"pe25ab-006": {
+"t": "sus-leg",
+"h": "A outra lei de 1990: comunidade e dinheiro.",
+"e": "A Lei 8.142/1990 dispõe sobre a **participação da comunidade** na gestão do SUS (Conferências e Conselhos de Saúde) e sobre as transferências intergovernamentais de recursos financeiros.",
+"w": {
+"A": "A participação complementar do setor privado está na CF (art. 199) e na Lei 8.080 (arts. 24 a 26).",
+"B": "As NOBs eram portarias ministeriais.",
+"D": "O PSF foi criado em 1994 por iniciativa ministerial.",
+"E": "As comissões intergestores estão na Lei 8.080 (art. 14-A, incluído pela Lei 12.466/2011) e no Decreto 7.508."
+},
+"r": "Lei nº 8.142/1990, ementa e arts. 1º e 2º."
+},
+"pe25ab-007": {
+"t": "sus-pol",
+"h": "Confira os números da equipe de Atenção Básica (eAB): carga mínima e máximo de profissionais por categoria.",
+"e": "Na PNAB 2017, a equipe de Atenção Básica (eAB) tem carga horária mínima por categoria de **10 horas**, com **no máximo 3 profissionais por categoria**, somando no mínimo 40 horas semanais. A alternativa C troca para \"20 horas e no máximo 2 profissionais\" e por isso é incorreta. As demais estão de acordo com a portaria, inclusive as 40 h obrigatórias na eSF (B) e as 30 h mínimas do Consultório na Rua (E).",
+"r": "Portaria GM/MS nº 2.436/2017 (PNAB), Anexo, item 3.4."
+},
+"pe25ab-008": {
+"t": "epi",
+"h": "Sortear grupos (escolas, quarteirões) em vez de indivíduos.",
+"e": "Na **amostragem por conglomerados**, a unidade sorteada é um grupo (bairro, escola, domicílio), muitas vezes em vários estágios. Na sistemática se sorteia a cada k elementos; na aleatória simples, cada indivíduo tem a mesma chance; na estratificada, divide-se a população em estratos homogêneos e sorteia-se dentro de cada um. Amostragem por conveniência não é probabilística.",
+"r": "MEDRONHO, R. et al. Epidemiologia (amostragem)."
+},
+"pe25ab-009": {
+"t": "epi",
+"h": "Descreve pacientes com a doença, sem grupo de comparação.",
+"e": "Descrever as características e desfechos de um grupo de pessoas com a mesma doença, **sem grupo de comparação**, é uma **série de casos** (estudo descritivo). Esse foi o desenho do artigo de Huang et al. (Lancet, 2020) com 41 pacientes de Wuhan.",
+"w": {
+"A": "O transversal mede exposição e desfecho ao mesmo tempo numa população, em geral para estimar prevalência.",
+"C": "O caso-controle compara doentes com não doentes.",
+"D": "O ecológico usa dados agregados de populações.",
+"E": "A coorte acompanha expostos e não expostos para comparar riscos."
+},
+"r": "HUANG, C. et al. Lancet, 2020; ROUQUAYROL, M. Z. Epidemiologia & Saúde (tipos de estudo)."
+},
+"pe25ab-010": {
+"t": "epi",
+"h": "Neonatal precoce, neonatal tardio, pós-neonatal.",
+"e": "Os componentes da mortalidade infantil são: **neonatal precoce (0 a 6 dias)**, **neonatal tardio (7 a 27 dias)** e **pós-neonatal (28 dias a menos de 1 ano)**.",
+"r": "RIPSA. Indicadores básicos para a saúde no Brasil, 2008."
+},
+"pe25ab-011": {
+"t": "epi",
+"h": "Para testar tratamento ou prevenção, qual desenho é o padrão-ouro?",
+"e": "O desenho mais indicado para avaliar intervenções terapêuticas ou preventivas é o **ensaio clínico randomizado**, não a coorte. Por isso A é incorreta. As demais são verdadeiras: a coorte sofre menos viés de seleção que o caso-controle (B), pode ser prospectiva, retrospectiva ou ambispectiva (C), estima o risco relativo (D) e costuma ser cara e longa (E).",
+"r": "FLETCHER, R.; FLETCHER, S. Epidemiologia clínica."
+},
+"pe25ab-012": {
+"t": "epi",
+"h": "Letalidade = óbitos pela doença ÷ doentes.",
+"e": "Letalidade = óbitos pela doença ÷ número de casos × 100 = 100 ÷ 400 = **25%**. Se dividisse pela população total (100/500 = 20%), seria a taxa de mortalidade pela doença, não a letalidade.",
+"r": "ROUQUAYROL, M. Z. Epidemiologia & Saúde."
+},
+"pe25ab-013": {
+"t": "epi",
+"h": "O prazo da CID-10 é de seis semanas.",
+"e": "Pela CID-10, morte materna é a ocorrida durante a gestação ou **até 42 dias após o término da gravidez**, por causa relacionada ou agravada pela gestação, excluídas causas acidentais ou incidentais. Entre 43 dias e 1 ano fala-se em morte materna tardia.",
+"r": "OMS. CID-10, cap. XV; RIPSA."
+},
+"pe25ab-014": {
+"t": "epi",
+"h": "Caso-controle é o desenho clássico para desfechos raros.",
+"e": "O estudo **caso-controle** parte dos doentes e busca exposições no passado, por isso é o mais eficiente para **doenças raras**, como as **malformações congênitas** (por exemplo, a investigação da talidomida). Escabiose, depressão, lombalgia e hipertensão são frequentes e podem ser estudadas por estudos transversais ou de coorte.",
+"r": "MEDRONHO, R. et al. Epidemiologia (estudos caso-controle)."
+},
+"pe25ab-015": {
+"t": "sus-pol",
+"h": "O Brasil recebeu o certificado em 1994.",
+"e": "Em 1994 as Américas, incluindo o Brasil, receberam da OPAS o certificado de **eliminação da transmissão autóctone do poliovírus selvagem**. A banca usou \"erradicação\", termo comum em provas. Rotavírus, hepatite A, varicela e covid-19 continuam circulando.",
+"r": "Ministério da Saúde. Programa Nacional de Imunizações: 50 anos (2023)."
+},
+"pe25ab-016": {
+"t": "epi",
+"h": "Em 2024 a lista nacional passou a incluir doenças relacionadas ao trabalho.",
+"e": "Hanseníase, hepatites virais e febre de chikungunya já constavam da Lista Nacional de Notificação Compulsória. A **Portaria GM/MS nº 5.201/2024** incluiu na lista, com notificação semanal, as doenças relacionadas ao trabalho, entre elas **LER/DORT**, além de transtornos mentais, câncer, perda auditiva, pneumoconioses, dermatoses e distúrbio de voz relacionados ao trabalho. Por isso os quatro itens são de notificação compulsória.",
+"f": "Antes de 2024, a LER/DORT era monitorada só pela vigilância sentinela. Em provas antigas, o gabarito pode ser diferente.",
+"r": "Portaria de Consolidação nº 4/2017, Anexo 1 do Anexo V, alterada pela Portaria GM/MS nº 5.201/2024."
+},
+"pe25ab-017": {
+"t": "sus-pol",
+"h": "Um dos itens é valor da PNPS, não princípio.",
+"e": "Pela PNPS (Portaria 2.446/2014), os **princípios** são: equidade, participação social, autonomia, empoderamento, intersetorialidade, intrassetorialidade, sustentabilidade, integralidade e territorialidade. **Corresponsabilidade** está entre os **valores** (com solidariedade, felicidade, ética, respeito às diversidades, humanização, justiça e inclusão social). Logo, quatro itens são princípios: I, II, IV e V.",
+"r": "Portaria GM/MS nº 2.446/2014 (PNPS), arts. 4º e 5º."
+},
+"pe25ab-018": {
+"t": "sus-pol",
+"h": "Lei dos semelhantes e Hahnemann.",
+"e": "A **Homeopatia** foi sistematizada por Samuel Hahnemann no fim do século XVIII, com base no princípio vitalista e na **lei dos semelhantes** (similia similibus curantur), enunciada por Hipócrates. Faz parte da PNPIC desde 2006.",
+"r": "Portaria GM/MS nº 971/2006 (PNPIC)."
+},
+"pe25ab-019": {
+"t": "sus-pol",
+"h": "Oswaldo Cruz, campanhas de vacinação obrigatória e polícia sanitária.",
+"e": "No início do século XX predominava o modelo **sanitarista campanhista**, com campanhas centralizadas e autoritárias contra endemias (Oswaldo Cruz). A vacinação obrigatória contra a varíola foi o estopim da Revolta da Vacina (1904). O modelo médico-assistencial privatista se consolida depois, com a previdência social (anos 1960–70).",
+"r": "MENDES, E. V. Uma agenda para a saúde; PAIM, J. O que é o SUS."
+},
+"pe25ab-020": {
+"t": "sus-pol",
+"h": "Eixos operacionais são estratégias de execução, não temas.",
+"e": "Os **eixos operacionais** da PNPS são: territorialização; articulação e cooperação intra e intersetorial; Rede de Atenção à Saúde; participação e controle social; gestão; educação e formação; vigilância, monitoramento e avaliação; **produção e disseminação de conhecimentos e saberes**; e comunicação social e mídia. As outras alternativas são **temas transversais** da política.",
+"r": "Portaria GM/MS nº 2.446/2014 (PNPS), art. 9º."
+},
+"pe25ab-021": {
+"t": "sus-pol",
+"h": "Conferência dos anos 1990, citada no texto da PNPIC.",
+"e": "O texto da PNPIC registra que a **10ª Conferência Nacional de Saúde (1996)** aprovou a \"incorporação ao SUS, em todo o País, de práticas de saúde como a fitoterapia, acupuntura e homeopatia, contemplando as terapias alternativas e práticas populares\". A 8ª (1986) já havia recomendado introduzir práticas alternativas, mas a frase citada é da 10ª.",
+"r": "Ministério da Saúde. Política Nacional de Práticas Integrativas e Complementares no SUS, 2006 (Antecedentes)."
+},
+"pe25ab-022": {
+"t": "sus-pol",
+"h": "Separe valores de princípios na PNPS.",
+"e": "Os **valores** fundantes da PNPS são: solidariedade, felicidade, ética, respeito às diversidades, humanização, corresponsabilidade, justiça social e inclusão social. **Autonomia** é **princípio**, não valor. Por isso A é a exceção.",
+"r": "Portaria GM/MS nº 2.446/2014 (PNPS), arts. 4º e 5º."
+},
+"pe25ab-023": {
+"t": "sus-pol",
+"h": "Starfield divide os atributos em essenciais e derivados.",
+"e": "Bárbara Starfield define quatro **atributos essenciais** da APS (primeiro contato, longitudinalidade, integralidade e coordenação) e três **derivados**: **orientação familiar**, orientação comunitária e competência cultural.",
+"r": "STARFIELD, B. Atenção primária: equilíbrio entre necessidades de saúde, serviços e tecnologia. UNESCO/MS, 2002."
+},
+"pe25ab-024": {
+"t": "sus-pol",
+"h": "A banca listou objetivos assistenciais e organizativos do SUDS.",
+"e": "O SUDS (1987) foi a transição para o SUS. Seus objetivos incluíam **universalização e equidade no acesso, descentralização, integralidade dos cuidados assistenciais, regionalização e hierarquização e implementação de distritos sanitários**. A banca considerou \"promover a participação social\" a exceção.",
+"f": "Algumas fontes citam a \"democratização das instâncias gestoras\" entre as diretrizes do SUDS. A participação social como diretriz organizativa só se consolida com a CF/88 e a Lei 8.142/90. Fique com o gabarito, sabendo que o tema é controverso.",
+"r": "ESCOREL, S. et al. As origens da Reforma Sanitária e do SUS; Gabarito oficial 2025."
+},
+"pe25ab-025": {
+"t": "sus-pol",
+"h": "Conferência de 1975, ainda no regime militar.",
+"e": "A **5ª Conferência Nacional de Saúde (1975)** discutiu o Sistema Nacional de Saúde, o **Programa de Saúde Materno-Infantil**, o Sistema de Vigilância Epidemiológica, o Programa de Controle das Grandes Endemias e o **Programa de Extensão das Ações de Saúde às Populações Rurais**.",
+"r": "Ministério da Saúde. Relatórios das Conferências Nacionais de Saúde (5ª CNS, 1975)."
+},
+"pe25ab-026": {
+"t": "epi",
+"h": "Ordene os valores: 14, 14, 18, 20, 24, 30.",
+"e": "Ordenando os dados: 14, 14, 18, 20, 24, 30. **Moda = 14** (o valor mais frequente). **Mediana** = média dos dois centrais = (18 + 20) ÷ 2 = **19**. **Média** = 120 ÷ 6 = **20**. Logo, moda (14) < mediana (19) < média (20).",
+"r": "Bioestatística básica: medidas de tendência central."
+},
+"pe25ab-027": {
+"t": "epi",
+"h": "Nominal não tem ordem. Escolaridade e estágio têm.",
+"e": "Variáveis **nominais** são categorias sem ordem: **sexo, estado civil e tipo sanguíneo** (três itens). Escolaridade e estágio da doença têm hierarquia natural, então são **ordinais**.",
+"r": "Bioestatística básica: tipos de variáveis."
+},
+"pe25ab-028": {
+"t": "epi",
+"h": "Teste em série: só é positivo se der positivo nos dois.",
+"e": "Na testagem **em série**, o resultado só é considerado positivo se todos os testes forem positivos. Isso reduz falsos positivos, **aumenta a especificidade e o valor preditivo positivo** (e diminui a sensibilidade). Na testagem **em paralelo** ocorre o contrário: aumenta a sensibilidade e o VPN, e reduz a especificidade e o VPP.",
+"r": "FLETCHER, R.; FLETCHER, S. Epidemiologia clínica (testes múltiplos)."
+},
+"pe25ab-029": {
+"t": "sus-leg",
+"h": "A análise situacional do Plano de Saúde considera os temas do Mapa da Saúde.",
+"e": "A Portaria GM/MS nº 2.135/2013, que trata do planejamento do SUS, diz que a análise situacional do Plano de Saúde considera os temas do **Mapa da Saúde**: **estrutura do sistema de saúde, redes de atenção à saúde, condições sociossanitárias, fluxos de acesso**, recursos financeiros, gestão do trabalho e da educação na saúde, e ciência, tecnologia, produção e inovação. Os quatro itens estão incluídos.",
+"r": "Portaria GM/MS nº 2.135/2013, art. 3º; Decreto nº 7.508/2011, art. 2º, VI (Mapa da Saúde)."
+},
+"pe25ab-030": {
+"t": "sus-pol",
+"h": "O PSE atende alunos de qual rede de ensino?",
+"e": "Pelo Decreto 6.286/2007, o PSE tem a finalidade de contribuir para a formação integral dos estudantes **da rede pública de educação básica**. Incluir a rede privada torna A incorreta. As demais reproduzem o decreto: integração saúde–educação com as equipes de Saúde da Família (B), adesão por termo de compromisso (C), visitas periódicas às escolas (D) e material fornecido pelo MEC (E).",
+"r": "Decreto nº 6.286/2007 (Programa Saúde na Escola)."
+},
+"pe25ab-031": {
+"t": "smental",
+"h": "Redução de danos tem a abstinência como alvo obrigatório?",
+"e": "A redução de danos busca **reduzir riscos e danos** sem exigir a abstinência como condição ou meta única; trabalha com as escolhas do usuário e seu território. A alternativa B, ao dizer que as melhores opções são definidas \"tendo em vista a abstinência\", contraria essa lógica. As demais estão corretas, inclusive as terapias de substituição (A).",
+"r": "Ministério da Saúde. A política do MS para atenção integral a usuários de álcool e outras drogas, 2003; Portaria GM/MS nº 3.088/2011 (RAPS)."
+},
+"pe25ab-032": {
+"t": "smental",
+"h": "São obstáculos frequentes relatados por psicólogos na Atenção Básica.",
+"e": "As cinco afirmativas descrevem dificuldades do psicólogo no NASF relatadas na literatura: cisão entre saúde mental e demais áreas, com estigma (I); receio das equipes diante do sofrimento psíquico (II); demanda por técnica e medicalização (III); dificuldade de escuta dos aspectos subjetivos e sociais (IV); e problemas de trabalho em equipe, articulação da rede e foco na cura em vez da promoção (V). **Todas são verdadeiras**.",
+"r": "CFP/CREPOP. Referências técnicas para atuação de psicólogas(os) na Atenção Básica à Saúde, 2019."
+},
+"pe25ab-033": {
+"t": "infancia",
+"h": "O relato mostra um pai que cuida, cozinha e combina com a parceira. Isso é patriarcado?",
+"e": "O relato mostra **divisão e compartilhamento do cuidado** entre o casal, flexibilização dos papéis tradicionais e decisões negociadas e dialogadas. Não há **ordenação patriarcal**, em que o homem detém autoridade e a mulher assume sozinha o cuidado. Por isso B é a incorreta.",
+"r": "Literatura sobre novas paternidades e parentalidade compartilhada (WAGNER, A. et al. Família em cena)."
+},
+"pe25ab-034": {
+"t": "desenv",
+"h": "Confira em que idade aparecem as frases telegráficas e o pensamento formal.",
+"e": "Na adolescência, o pensamento **operatório formal** (Piaget) se desenvolve junto com uma discursividade mais complexa (argumentar, hipotetizar), e um apoia o outro, por isso A está correta.",
+"w": {
+"B": "Frases telegráficas surgem por volta dos 2 anos, muito antes do pensamento formal.",
+"C": "No primeiro ano há balbucio e as primeiras palavras; frases telegráficas vêm depois.",
+"D": "Pré-operatório e operatório concreto são estágios diferentes.",
+"E": "Linguagem e pensamento são interdependentes (Vygotsky)."
+},
+"r": "PIAGET, J. Seis estudos de psicologia; VYGOTSKY, L. Pensamento e linguagem; PAPALIA, D. Desenvolvimento humano."
+},
+"pe25ab-035": {
+"t": "psicopat",
+"h": "Separe o que ele vê e ouve do que ele acredita.",
+"e": "JP **vê e ouve** alguém que não está lá (alucinações visuais e auditivas) e sustenta uma crença sem base de que **anjos virão salvá-lo** (delírio). Delírio e alucinação são sintomas positivos da esquizofrenia, que **pode** ser diagnosticada na infância (de início muito precoce, raro). Não há ritual obsessivo.",
+"w": {
+"D": "O DSM-5 permite diagnosticar esquizofrenia em crianças.",
+"E": "No TOC as obsessões são reconhecidas como próprias da mente; não há alucinação."
+},
+"r": "APA. DSM-5, critérios de esquizofrenia."
+},
+"pe25ab-036": {
+"t": "desenv",
+"h": "Para Aberastury e Knobel, a turma é ponte para a individuação.",
+"e": "Na **síndrome normal da adolescência** (Aberastury e Knobel), a tendência grupal é **transitória**: o adolescente transfere para o grupo a dependência que tinha dos pais, e a turma funciona como passagem rumo à identidade adulta (B a E). Não se trata de algo passivo do qual a separação seja \"quase impossível\". Por isso A é a incorreta.",
+"r": "ABERASTURY, A.; KNOBEL, M. Adolescência normal."
+},
+"pe25ab-037": {
+"t": "infancia",
+"h": "Depressão pós-parto moderada ou grave pode precisar de remédio.",
+"e": "A **depressão pós-parto** é um transtorno que, conforme a gravidade, pode exigir **tratamento farmacológico** além da psicoterapia e do suporte. Dizer que a intervenção farmacológica é desnecessária torna E incorreta. As demais descrevem bem a psicologia da gestação, como a ambivalência afetiva (B) e os fatores que influenciam a vivência (C).",
+"r": "MALDONADO, M. T. Psicologia da gravidez; APA. DSM-5 (início no periparto)."
+},
+"pe25ab-038": {
+"t": "desenv",
+"h": "Os conflitos costumam vir da independência ou da dependência do idoso?",
+"e": "A literatura sobre família e envelhecimento aponta que o desgaste nas relações costuma vir da **dependência** (sobrecarga do cuidador, perda de autonomia), além de divergências entre gerações. Atribuir o conflito à **independência** do idoso torna B incorreta. As demais estão de acordo com o Estatuto da Pessoa Idosa e a PNSPI: afeto e ajuda mútua (A), risco de violência intrafamiliar (C), família e comunidade como proteção (D).",
+"r": "Política Nacional de Saúde da Pessoa Idosa (Portaria GM/MS nº 2.528/2006); Lei nº 10.741/2003."
+},
+"pe25ab-039": {
+"t": "desenv",
+"h": "O objetivo é garantir cuidado sem tirar o idoso de casa.",
+"e": "A frase discute **institucionalizar os cuidados** (organizá-los em serviços e políticas formais) **sem a institucionalização do idoso** (internação em instituição de longa permanência), para manter o cuidado no domicílio e na comunidade. As lacunas são preenchidas por \"institucionalizar / institucionalização\".",
+"r": "CAMARANO, A. A. (org.). Cuidados de longa duração para a população idosa. IPEA, 2010."
+},
+"pe25ab-040": {
+"t": "psicopat",
+"h": "Todos os sintomas são do mesmo domínio do DSM-5.",
+"e": "Os seis sintomas são critérios de **desatenção** do TDAH no DSM-5: parece não escutar, dificuldade de organização, evita esforço mental prolongado, perde objetos, esquecimento nas atividades diárias e não termina tarefas. São necessários seis ou mais (cinco a partir dos 17 anos), por pelo menos seis meses, em dois ou mais contextos.",
+"r": "APA. DSM-5, Transtorno de déficit de atenção/hiperatividade, critério A1."
+},
+"pe25ab-041": {
+"t": "aval",
+"h": "Raciocínio hipotético-dedutivo.",
+"e": "No raciocínio diagnóstico **hipotético-dedutivo**, o profissional gera cedo um **conjunto de hipóteses** a partir dos primeiros dados e usa essas hipóteses para decidir quais informações coletar até deduzir a mais provável.",
+"r": "ELSTEIN, A. et al. Medical problem solving (1978); Gabarito oficial 2025."
+},
+"pe25ab-042": {
+"t": "social",
+"h": "No último Foucault, ética é a relação do sujeito consigo.",
+"e": "Em Foucault (fase da hermenêutica do sujeito, \"cuidado de si\"), a subjetividade é um modo de **relação de si consigo mesmo**: práticas pelas quais o sujeito se constitui, atravessadas por instituições e normas culturais.",
+"r": "FOUCAULT, M. História da sexualidade, v. 2 e 3; A hermenêutica do sujeito."
+},
+"pe25ab-043": {
+"t": "teorias",
+"h": "Toda escuta clínica pressupõe uma patologia?",
+"e": "A escuta clínica se volta para a **demanda do sujeito**, mas **não necessariamente para uma patologia**: pode acolher sofrimento, conflitos e projetos de vida em qualquer espaço. A ideia de que a clínica é necessariamente ligada à doença vem do modelo médico que a própria crítica busca superar. Por isso B é a incorreta.",
+"r": "DUNKER, C. Mal-estar, sofrimento e sintoma; CFP. Referências técnicas (clínica ampliada)."
+},
+"pe25ab-044": {
+"t": "infancia",
+"h": "Qual item é um obstáculo externo ao casal?",
+"e": "Entre os itens, apenas o **receio do preconceito e das reações sociais negativas (III)** desfavorece o processo de adoção por casais homoafetivos. Aceitar a impossibilidade biológica (I), ter sentimentos não discriminatórios internalizados (II), o desejo de realização pessoal (IV) e o desejo dos avós (V) aparecem na literatura como facilitadores ou motivações.",
+"r": "Literatura sobre homoparentalidade e adoção (FARIAS, M.; MAIA, A. Adoção por homossexuais)."
+},
+"pe25ab-045": {
+"t": "social",
+"h": "Para Silvia Lane, o grupo é processo histórico que articula, não desarticula.",
+"e": "Para Silvia Lane, o **processo grupal** é uma experiência histórica que se constrói num determinado espaço e tempo, **articulando** os aspectos individuais e sociais, com a linguagem como mediação (C) e a ideologia em jogo (B). Dizer que ele \"desarticula os diversos aspectos pessoais\" torna D incorreta.",
+"r": "LANE, S.; CODO, W. Psicologia social: o homem em movimento (cap. O processo grupal)."
+},
+"pe25ab-046": {
+"t": "social",
+"h": "Um fala pelo grupo; o outro recebe o que o grupo rejeita.",
+"e": "Em Pichon-Rivière, o **porta-voz** é quem explicita o implícito do grupo, colaborando com a tarefa. O **bode expiatório** é o integrante que deposita ou explicita algo que o grupo **não aceita** e, por isso, é segregado. O sabotador resiste à tarefa; o líder (de mudança ou de resistência) conduz o grupo.",
+"r": "PICHON-RIVIÈRE, E. O processo grupal."
+},
+"pe25ab-047": {
+"t": "social",
+"h": "Pichon fala em interdependência e em aprendizagem como apropriação da realidade.",
+"e": "Na concepção de Pichon-Rivière, o grupo é um conjunto de pessoas ligadas por constantes de tempo e espaço e por sua mútua representação interna, que se propõe a uma **tarefa**. O item I é a única afirmação correta. O III nega a interdependência e os vínculos. O IV reduz a aprendizagem a \"reforço\" (termo behaviorista), quando em Pichon aprender é a **apropriação instrumental da realidade para transformá-la**. O II afirma que a transformação é \"sempre parcial\", restrição que não está na teoria. Logo, três estão erradas.",
+"f": "O gabarito oficial é C (três erradas). A redação dos itens é ambígua, especialmente o II.",
+"r": "PICHON-RIVIÈRE, E. O processo grupal; Gabarito oficial 2025."
+},
+"pe25ab-048": {
+"t": "multi",
+"h": "A clínica ampliada atravessa as disciplinas.",
+"e": "A **Clínica Ampliada** (PNH; Gastão Wagner Campos) integra várias abordagens numa perspectiva **transdisciplinar**, com comunicação transversal na equipe, sínteses singulares para cada caso e implicação subjetiva do profissional, sem \"neutralidade\". Dizer que prioriza sempre a perspectiva disciplinar torna E incorreta.",
+"r": "Ministério da Saúde. Clínica ampliada e compartilhada (HumanizaSUS), 2009."
+},
+"pe25ab-049": {
+"t": "multi",
+"h": "Os quatro momentos do PTS: diagnóstico, metas, responsabilidades, reavaliação.",
+"e": "O Projeto Terapêutico Singular tem quatro momentos: **diagnóstico** (avaliação orgânica, psicológica e social); **definição de metas**, com propostas de curto, médio e longo prazo negociadas com o usuário pelo membro da equipe com melhor vínculo; **divisão de responsabilidades** (tarefas de cada um e o técnico de referência); e **reavaliação**. O trecho descreve a definição de metas.",
+"r": "Ministério da Saúde. Clínica ampliada, equipe de referência e projeto terapêutico singular, 2007."
+},
+"pe25ab-050": {
+"t": "etica",
+"h": "Encaminhamento remunerado.",
+"e": "O Código de Ética Profissional do Psicólogo (Resolução CFP 010/2005), art. 2º, veda **receber, pagar remuneração ou porcentagem por encaminhamento de serviços**. As outras alternativas distorcem vedações do mesmo artigo: induzir convicções religiosas é vedado (não \"com respeito\"); usar práticas psicológicas como castigo é vedado sempre; ser conivente com erros de colegas é vedado; e interferir na validade e fidedignidade de instrumentos é vedado.",
+"r": "Resolução CFP nº 010/2005 (Código de Ética Profissional do Psicólogo), art. 2º."
+}
+}

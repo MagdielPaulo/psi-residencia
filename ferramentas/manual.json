@@ -1,0 +1,106 @@
+[
+ {
+  "id": "pe25h-012",
+  "exam": "pe25h",
+  "num": 12,
+  "area": "sus",
+  "answer": "E",
+  "stem": "A Lei nº 8.142/1990, que trata da participação da comunidade na gestão do SUS e das transferências intergovernamentais de recursos financeiros na área da saúde, determina que os recursos do Fundo Nacional de Saúde sejam alocados em:\nI. Despesas de custeio e de capital do Ministério da Saúde, seus órgãos entidades, da administração direta e indireta.\nII. Investimentos previstos em lei orçamentária, de iniciativa do Poder Executivo e aprovados pelos Conselhos de Saúde.\nIII. Investimentos previstos no Plano Quinquenal do Ministério da Saúde;\nIV. Cobertura das ações e serviços de saúde a serem implementados pelos Municípios, Estados e Distrito Federal.\nEstão CORRETAS apenas",
+  "options": [
+   "I e III.",
+   "II e IV.",
+   "I, II e III.",
+   "III e IV.",
+   "I, III e V. (assim impresso na prova; leia-se I, III e IV)"
+  ]
+ },
+ {
+  "id": "pe25h-029",
+  "exam": "pe25h",
+  "num": 29,
+  "area": "psi",
+  "answer": "B",
+  "stem": "Na clínica psicológica temos, entre outras, três linhas teóricas que são, a saber, a Terapia Centrada na Pessoa (A), Gestal-Terapia (B) e Terapia Cognitivo-Comportamental (C).\nSobre elas, analise as seguintes afirmativas:\nI. Temos uma escuta qualificada em torno de uma ou mais tarefas a serem realizadas pelo sujeito.\nII. Enfatiza-se a vivência da experiência da relação cliente-terapeuta ao invés do conteúdo verbal.\nIII. Demonstra-se na relação o poder de evitar julgamentos errados sobre as decisões no cuidado de si.\nConstruindo a devida relação, temos como CORRETA a alternativa",
+  "options": [
+   "A – I, B – III e C – II",
+   "A – II, B – III e C – I",
+   "A – III, B – II e C – I",
+   "A – II, B – I e C – III",
+   "A – I, B – II e C – III"
+  ]
+ },
+ {
+  "id": "pe25h-039",
+  "exam": "pe25h",
+  "num": 39,
+  "area": "psi",
+  "answer": "A",
+  "stem": "Uma doença suscita os seguintes medos de perda: da dependência (A), dos familiares (B), de metas (C), da dor e/ou mutilação (D) e da morte (E).\nDessa tipificação, temos as seguintes definições:\nI. do acolhimento, o que é vivido no abandono, na separação ou no aniquilamento pelo outro.\nII. de autonomia para a realização das atividades mais pessoais e íntimas.\nIII. das expectativas pessoais face as pessoas, por exemplo, a formatura de um filho.\nIV. das funções motoras, ou seja, dos limites impostos pela situação de adoecimento.\nV. das condições financeiras e do desenvolvimento propiciado aos que lhe são íntimos.\nFazendo a devida relação entre os medos dados e as definições citadas, assinale a alternativa CORRETA.",
+  "options": [
+   "A – II, B – V, C – III, D – IV e E – I",
+   "A – III, B – II, C – I, D – IV e E – V",
+   "A – V, B – II, C – I, D – III e E – IV",
+   "A – III, B – I, C – II, D – IV e E – V",
+   "A – IV, B – V, C – III, D – I e E – II"
+  ]
+ },
+ {
+  "id": "pe25h-023",
+  "img": "img/pe25h-023.png"
+ },
+ {
+  "id": "pe23sc-010",
+  "options": [
+   "organização dos serviços em níveis crescentes de complexidade.",
+   "articulação entre os serviços existentes.",
+   "atuação social, sobretudo através dos Conselhos e das Conferências de Saúde, na política e serviços de saúde.",
+   "distribuição do poder entre os três níveis de governo, sem centralizar no nível central.",
+   "execução dos serviços com qualidade e eficiência."
+  ]
+ },
+ {
+  "id": "pe23sc-011",
+  "context": "Leia o texto abaixo. O componente da Capitação Ponderada reúne o maior volume de recursos dentro da previsão orçamentária da área de atenção básica do Ministério da Saúde, representando aproximadamente 52% da projeção orçamentária para 2020. A Capitação Ponderada estrutura-se na lógica do cadastramento da “pessoa/usuário”. Neste, o valor unitário por cadastro válido diferencia-se (dada a característica de ponderação) em duas classificações: caracterização do usuário (critérios demográficos e socioeconômicos) e tipologia municipal. [...] A tipologia municipal citada e o tipo de equipe implantada (equipe de atenção primária - EAP - ou equipe de saúde da família - EqSF) definem o quantitativo máximo de pessoas que o município poderá cadastrar até o limite da população registrada na estimativa IBGE vigente. Ou seja, apesar do modelo de alocação desse componente basear-se no cadastramento das pessoas, os cadastros realizados pelas equipes municipais somente serão contabilizados para efeitos de financiamento se o município possuir quantidade de equipes suficiente (segundo parâmetro) para o volume de cadastrados realizados, algo que dificulta a recepção do recurso."
+ },
+ {
+  "id": "pe21i-016",
+  "options": [
+   "Conferência de Alma Ata (1978)",
+   "Relatório Dawson (1920)",
+   "Relatório sobre a criação do Serviço Nacional de Saúde do Reino Unido (1948)",
+   "Criação da Organização Mundial de Saúde (1948)",
+   "Institucionalização do Sistema de Saúde do Canadá (1960)"
+  ]
+ },
+ {
+  "id": "pe21i-017",
+  "context": "Quadro (dados reais arredondados de um dia de janeiro de 2021):\nPaís | Casos | Óbitos | Testes | População\nArgentina | 1.760.000 | 45.000 | 5.360.000 | 45.000.000\nBrasil | 8.200.000 | 206.000 | 28.600.000 | 210.000.000\nChina | 87.800 | 4.600 | 160.000.000 | 1.400.000.000\nEstados Unidos | 23.600.000 | 394.000 | 277.500.000 | 330.000.000\nVenezuela | 117.800 | 1.100 | 2.500.000 | 28.400.000",
+  "options": [
+   "3,98 por 10¹",
+   "2,51 por 10²",
+   "980,1 por 10⁶",
+   "31.924 por 10⁶",
+   "6,2 por 10⁶"
+  ]
+ },
+ {
+  "id": "pe21i-018",
+  "context": "Quadro (dados reais arredondados de um dia de janeiro de 2021):\nPaís | Casos | Óbitos | Testes | População\nArgentina | 1.760.000 | 45.000 | 5.360.000 | 45.000.000\nBrasil | 8.200.000 | 206.000 | 28.600.000 | 210.000.000\nChina | 87.800 | 4.600 | 160.000.000 | 1.400.000.000\nEstados Unidos | 23.600.000 | 394.000 | 277.500.000 | 330.000.000\nVenezuela | 117.800 | 1.100 | 2.500.000 | 28.400.000"
+ },
+ {
+  "id": "df24_168-098",
+  "context": "Atenção: o caderno de prova original não traz o caso de \"Ana\" a que esta questão se refere (erro da própria prova). Responda pelos princípios gerais de comunicação de más notícias e terminalidade."
+ },
+ {
+  "id": "df24_168-099",
+  "context": "Atenção: o caderno de prova original não traz o caso de \"Ana\" a que esta questão se refere (erro da própria prova). Responda pelos princípios gerais de comunicação de más notícias e terminalidade."
+ },
+ {
+  "id": "sc_bv-023",
+  "stem": "Relacione as definições apresentadas, de acordo com as concepções teóricas da psicologia.\n1. Psicologia genética.\n2. Psicologia sócio-histórica.\n3. Psicologia centrada na pessoa.\n4. Psicologia Behaviorista.\n( ) Ensinar seria arranjar ou dispor contingências para a aprendizagem eficaz.\n( ) Essa educação tem por objetivo criar condições favoráveis que facilitem ao próprio estudante a sua aprendizagem e liberar sua capacidade de autoaprendizagem, visando ao seu desenvolvimento tanto intelectual quanto emocional.\n( ) O pleno desenvolvimento da inteligência é inseparável do conjunto dos relacionamentos afetivos, sociais e morais que constituem a vida da escola.\n( ) Conhecendo o nível de desenvolvimento dos alunos, a escola deve dirigir o ensino não para etapas intelectuais já alcançadas, mas sim para estágios de desenvolvimento ainda não incorporados pelos alunos, funcionando realmente como um motor de novas conquistas psicológicas.\nA sequência está correta em"
+ },
+ {
+  "id": "sc_bv-024",
+  "stem": "Relacione as características descritas e definidas por Jean Piaget de acordo com os períodos do desenvolvimento humano apresentados.\n1. Período sensório-motor.\n2. Período pré-operatório.\n3. Período de operações concretas.\n4. Período de operações formais.\n( ) A criança consegue coordenar estes pontos de vista e integrá-los de modo lógico e coerente. No plano afetivo, isto significa que ela será capaz de cooperar com os outros, de trabalhar em grupo e, ao mesmo tempo, de ter autonomia pessoal.\n( ) A vida mental reduz-se aos exercícios dos aparelhos reflexos, de fundo hereditário, como a sucção. Esses reflexos melhoram com o treino.\n( ) O livre exercício da reflexão permite, inicialmente, “submeter” o mundo real aos sistemas e teorias que o seu pensamento é capaz de criar. Isto vai-se atenuando de forma crescente, através da reconciliação do pensamento com a realidade.\n( ) Com a palavra, há a possibilidade de exteriorização da vida interior e, portanto, a possibilidade de corrigir ações futuras. A criança já antecipa o que vai acontecer.\nA sequência está correta em"
+ }
+]

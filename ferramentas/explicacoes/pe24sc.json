@@ -1,0 +1,327 @@
+{
+"pe24sc-001": {
+"t": "sus-pol",
+"h": "O que Cebes e Abrasco defendiam contra a medicina previdenciária?",
+"e": "O Cebes (1976) e a Abrasco (1979) foram centrais no movimento da Reforma Sanitária e defendiam, contra o modelo fragmentado e excludente da medicina previdenciária (que só atendia quem tinha carteira assinada), um **sistema de saúde universal**, público e democrático, que viria a ser o SUS.",
+"r": "ESCOREL, S. Reviravolta na saúde: origem e articulação do movimento sanitário, 1999; PAIM, J. Reforma Sanitária Brasileira."
+},
+"pe24sc-002": {
+"t": "sus-leg",
+"h": "Instrumentalizar profissionais = formar recursos humanos.",
+"e": "Um projeto que capacita profissionais da APS se enquadra na competência constitucional do SUS de **ordenar a formação de recursos humanos na área de saúde** (CF, art. 200, III).",
+"w": {
+"A": "A CF veda recursos públicos para instituições com fins lucrativos (art. 199, § 2º).",
+"C": "Capacitar profissionais não é participação da comunidade.",
+"D": "Não se trata de vigilância sanitária.",
+"E": "Controle de alimentos é outra competência do art. 200 (inciso VI)."
+},
+"r": "CF/88, art. 200, III."
+},
+"pe24sc-003": {
+"t": "sus-leg",
+"h": "As Emendas 124 e 127/2022 tratam do piso e de quem ajuda a pagá-lo.",
+"e": "A EC 124/2022 incluiu na Constituição o piso salarial da enfermagem, e a EC 127/2022 definiu que **compete à União** prestar **assistência financeira complementar** aos Estados, DF e Municípios, às entidades filantrópicas e aos prestadores contratualizados que atendam no mínimo **60%** de seus pacientes pelo SUS, para o cumprimento do piso (art. 198, §§ 12 a 15).",
+"w": {
+"A": "A assistência complementar é da União, não dos Estados.",
+"B": "O percentual é 60%, e quem paga é a União.",
+"D": "As filantrópicas estão incluídas.",
+"E": "A CF trata do piso desde a EC 124/2022."
+},
+"r": "CF/88, art. 198, §§ 12 a 15 (EC 124/2022 e EC 127/2022)."
+},
+"pe24sc-004": {
+"t": "sus-leg",
+"h": "A Lei 8.080 cria no SUS atendimento e internação domiciliar.",
+"e": "O art. 19-I da Lei 8.080 estabelece **no âmbito do SUS** tanto o **atendimento domiciliar** quanto a **internação domiciliar**. Dizer que a internação domiciliar fica reservada à rede suplementar torna A incorreta. As demais estão nos parágrafos do artigo: cuidado multiprofissional (B), níveis preventivo, terapêutico e reabilitador (C) e realização apenas por **indicação médica**, com concordância expressa do paciente e da família (D e E).",
+"r": "Lei nº 8.080/1990, art. 19-I (incluído pela Lei 10.424/2002)."
+},
+"pe24sc-005": {
+"t": "sus-leg",
+"h": "Diretrizes nacionais são pactuadas na comissão das três esferas.",
+"e": "Pelo Decreto 7.508/2011, a **Comissão Intergestores Tripartite (CIT)** pactua as diretrizes nacionais, inclusive as da RENASES e da RENAME. A CIB pactua no âmbito estadual e a CIR no regional. CIES são comissões de integração ensino-serviço e o SINAN é um sistema de informação.",
+"r": "Decreto nº 7.508/2011, arts. 21 a 24 e 32."
+},
+"pe24sc-006": {
+"t": "sus-pol",
+"h": "Continuidade do cuidado na rede: a informação acompanha o paciente.",
+"e": "A banca associou a continuidade do cuidado na rede à **transferência de informação** sobre o paciente entre os pontos de atenção, para subsidiar as decisões (continuidade **informacional**, na classificação de Haggerty). As outras restringem indevidamente a ideia ao médico ou à APS.",
+"w": {
+"C": "Um só médico acompanhando todos os problemas é longitudinalidade/médico de referência, e o decreto fala em continuidade em toda a rede.",
+"D": "A continuidade vale para toda a rede de atenção, não apenas para a APS.",
+"E": "Também restringe a responsabilidade ao médico da APS."
+},
+"r": "Decreto nº 7.508/2011, art. 12; HAGGERTY, J. et al. Continuity of care: a multidisciplinary review. BMJ, 2003."
+},
+"pe24sc-007": {
+"t": "sus-pol",
+"h": "Decisão com base no juízo particular é outro princípio.",
+"e": "O princípio da **justiça** trata da distribuição justa e equitativa de recursos e serviços de saúde. Dar ao indivíduo **poder de decisão com base no seu próprio juízo de valor** é o princípio da **autonomia**. Por isso D é incorreta.",
+"r": "BEAUCHAMP, T.; CHILDRESS, J. Princípios de ética biomédica."
+},
+"pe24sc-008": {
+"t": "sus-pol",
+"h": "A mulher com alopecia sofre por ser vista como diferente.",
+"e": "A Declaração Universal sobre Bioética e Direitos Humanos (UNESCO, 2005) estabelece o princípio de **não discriminação e não estigmatização** (art. 11): nenhum indivíduo ou grupo deve ser discriminado ou estigmatizado. É o princípio que protege a pessoa com alopecia do estigma ligado à aparência.",
+"r": "UNESCO. Declaração Universal sobre Bioética e Direitos Humanos, 2005, art. 11."
+},
+"pe24sc-009": {
+"t": "sus-leg",
+"h": "Lei 8.080, art. 2º, § 2º.",
+"e": "O art. 2º, § 2º, da Lei 8.080 diz que o dever do Estado de garantir a saúde **não exclui o das pessoas, da família, das empresas e da sociedade**. Os exemplos (criadouro de dengue, abandono proposital de tratamento, dirigir embriagado) ferem esse **dever da sociedade**.",
+"r": "Lei nº 8.080/1990, art. 2º, § 2º."
+},
+"pe24sc-010": {
+"t": "sus-leg",
+"h": "A Conferência delibera para onde?",
+"e": "Pela Lei 8.142/90, a Conferência de Saúde reúne-se a cada quatro anos, com representação dos vários segmentos sociais, para **avaliar a situação de saúde e propor diretrizes para a formulação da política de saúde** nos níveis correspondentes. Ela não é um espaço para elaborar propostas a serem deliberadas pelos conselhos municipais. Por isso D é incorreta. A, B, C e E reproduzem o art. 1º, § 1º.",
+"r": "Lei nº 8.142/1990, art. 1º, § 1º."
+},
+"pe24sc-011": {
+"t": "sus-leg",
+"h": "Plano = diagnóstico e diretrizes; PAS = metas do ano; LOA = orçamento.",
+"e": "O **Plano de Saúde** parte da análise situacional, com conhecimento do território e das necessidades (I → A). A **Lei Orçamentária Anual** define as ações com metas físicas e orçamentárias (II → C). A **Programação Anual de Saúde** operacionaliza o plano com objetivos e metas para o ano (III → B).",
+"r": "Portaria GM/MS nº 2.135/2013; LC nº 141/2012."
+},
+"pe24sc-012": {
+"t": "sus-pol",
+"h": "A eSF é financiada por capitação, não por incentivo estratégico.",
+"e": "No Previne Brasil, o **incentivo para ações estratégicas** financiava programas como Academia da Saúde, PSE, Consultório na Rua, UBS Fluvial, eSF Ribeirinha, Saúde na Hora, saúde bucal etc. A **equipe de Saúde da Família** era custeada pela **capitação ponderada** (pessoas cadastradas). Por isso C é a exceção.",
+"f": "O Previne Brasil foi substituído em 2024 por um novo modelo de cofinanciamento da APS (Portaria GM/MS nº 3.493/2024). Em provas mais novas, confira qual modelo está sendo cobrado.",
+"r": "Portaria GM/MS nº 2.979/2019 (Previne Brasil); Portaria GM/MS nº 3.493/2024."
+},
+"pe24sc-013": {
+"t": "sus-pol",
+"h": "Medicalização da vida combina com qual modelo hegemônico?",
+"e": "A **medicalização** (transformar questões da vida em doenças tratadas com remédios) é característica do **modelo médico-assistencial privatista**, hegemônico, centrado no hospital, no médico e no consumo de procedimentos e medicamentos. Promoção da saúde, PSF e reformas racionalizadoras são modelos alternativos que se contrapõem a ele.",
+"r": "PAIM, J. Modelos de atenção à saúde no Brasil (In: GIOVANELLA, L. Políticas e sistema de saúde no Brasil)."
+},
+"pe24sc-014": {
+"t": "sus-pol",
+"h": "As cinco redes temáticas pactuadas em 2011.",
+"e": "As **redes temáticas** pactuadas na CIT em 2011–2012 são: Rede Cegonha, Rede de Urgência e Emergência (RUE), Rede de Atenção Psicossocial (RAPS), Rede de Cuidados à Pessoa com Deficiência e Rede de Atenção às Pessoas com Doenças Crônicas. \"Rede hospitalar de alta complexidade\" não é rede temática.",
+"r": "Ministério da Saúde. Redes de Atenção à Saúde no SUS; Portaria GM/MS nº 4.279/2010."
+},
+"pe24sc-015": {
+"t": "sus-leg",
+"h": "Está no art. 15 da Lei 8.080, entre as atribuições comuns.",
+"e": "\"Implementar o Sistema Nacional de Sangue, Componentes e Derivados\" está no art. 15, XIV, da Lei 8.080, entre as atribuições **comuns** à União, Estados, DF e Municípios.",
+"r": "Lei nº 8.080/1990, art. 15, XIV."
+},
+"pe24sc-016": {
+"t": "sus-pol",
+"h": "Qual modelo é o das camadas concêntricas?",
+"e": "As **camadas concêntricas** (indivíduo no centro, depois estilo de vida, redes sociais, condições de vida e trabalho e macrodeterminantes) são do modelo de **Dahlgren e Whitehead**. O modelo de **Diderichsen** enfatiza a **estratificação social**, que gera diferenças de exposição, vulnerabilidade e consequências da doença. Por isso C é incorreta. A Comissão Nacional sobre DSS foi criada em 2006 (E).",
+"r": "CNDSS. As causas sociais das iniquidades em saúde no Brasil, 2008; BUSS, P.; PELLEGRINI FILHO, A. Physis, 2007."
+},
+"pe24sc-017": {
+"t": "sus-pol",
+"h": "Amor, humildade, esperança e confiança no diálogo.",
+"e": "A PNEPS-SUS (Portaria 2.761/2013) tem como princípios: **diálogo, amorosidade, problematização, construção compartilhada do conhecimento, emancipação** e compromisso com o projeto democrático e popular. O texto de Paulo Freire, que fala de amor, esperança e confiança como base do diálogo, ilustra a **amorosidade**.",
+"r": "Portaria GM/MS nº 2.761/2013 (PNEPS-SUS), art. 3º; FREIRE, P. Pedagogia da autonomia."
+},
+"pe24sc-018": {
+"t": "sus-pol",
+"h": "Milton Santos: o espaço vivido, em movimento.",
+"e": "**Território vivo** é o conceito (inspirado em Milton Santos) que entende o território não só como área geográfica, mas como espaço dinâmico de relações sociais, econômicas, culturais e ambientais onde a vida acontece. A PNAB pede que as equipes reconheçam esse território.",
+"r": "Portaria GM/MS nº 2.436/2017 (PNAB); SANTOS, M. O retorno do território."
+},
+"pe24sc-019": {
+"t": "epi",
+"h": "Notificar que não houve casos.",
+"e": "**Notificação negativa** é a comunicação de que **não ocorreram casos** de doenças de notificação compulsória no período. Mostra que o sistema de vigilância está ativo, e não apenas silencioso.",
+"r": "Ministério da Saúde. Guia de Vigilância em Saúde."
+},
+"pe24sc-020": {
+"t": "sus-leg",
+"h": "Lei 8.080, art. 6º, § 1º.",
+"e": "É a definição de **vigilância sanitária** (art. 6º, § 1º, da Lei 8.080): conjunto de ações capaz de eliminar, diminuir ou prevenir riscos e de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde.",
+"r": "Lei nº 8.080/1990, art. 6º, § 1º."
+},
+"pe24sc-021": {
+"t": "epi",
+"h": "A pergunta é se a vacina funciona.",
+"e": "Responder se a vacina é eficaz exige **avaliar o impacto das ações e políticas** de saúde (por exemplo, comparar internações antes e depois, ou entre vacinados e não vacinados). Medir prevalência, descrever o perfil ou a incidência entre internados não responde, sozinho, à pergunta sobre eficácia.",
+"r": "ROUQUAYROL, M. Z. Epidemiologia & Saúde (usos da epidemiologia)."
+},
+"pe24sc-022": {
+"t": "epi",
+"h": "\"Quando, onde e quem\" é pergunta descritiva.",
+"e": "As perguntas **quem, quando e onde** adoece (tempo, lugar e pessoa) são respondidas pelos estudos **descritivos**. Os analíticos testam hipóteses de associação, respondendo ao \"por quê\". Por isso B é incorreta.",
+"r": "OPAS. Módulos de Princípios de Epidemiologia para o Controle de Enfermidades, 2010/2017."
+},
+"pe24sc-023": {
+"t": "epi",
+"h": "Morbidade = adoecimento.",
+"e": "Indicadores de **morbidade** medem a ocorrência de doenças, como a **taxa de incidência de AIDS**. Prevalência de fumantes e de uso excessivo de álcool são indicadores de **fatores de risco**. Razão de mortalidade materna e mortalidade por causas mal definidas são indicadores de **mortalidade**.",
+"r": "RIPSA. Indicadores básicos para a saúde no Brasil."
+},
+"pe24sc-024": {
+"t": "sus-pol",
+"h": "Agente-hospedeiro-ambiente: base de qual modelo?",
+"e": "A crítica de que as doenças não se reduzem à relação agente–hospedeiro se dirige à visão do **modelo biomédico**, centrado na causa biológica. A determinação social, os determinantes sociais e a promoção da saúde são justamente as perspectivas que fazem essa crítica.",
+"r": "AROUCA, S. O dilema preventivista; ALMEIDA FILHO, N. Introdução à epidemiologia."
+},
+"pe24sc-025": {
+"t": "epi",
+"h": "Transmissão indireta precisa de um veículo ou vetor.",
+"e": "Na transmissão **indireta**, o agente passa por um **veículo** (água, alimentos, objetos) ou por um vetor. **Alimentos contaminados** são exemplo clássico. Beijo, via transplacentária, transfusão e amamentação são formas de transmissão **direta**.",
+"r": "Ministério da Saúde. Guia de Vigilância em Saúde; ROUQUAYROL, M. Z. Epidemiologia & Saúde."
+},
+"pe24sc-026": {
+"t": "sus-pol",
+"h": "Qual não é valor, e sim o contrário de um?",
+"e": "Os valores da PNPS incluem **respeito às diversidades, humanização, inclusão social e felicidade**. O **sexismo** (discriminação por sexo ou gênero) contraria esses valores e o reconhecimento do nome social no SUS (Portaria 1.820/2009, Carta dos Direitos dos Usuários).",
+"r": "Portaria GM/MS nº 2.446/2014 (PNPS), art. 5º; Portaria GM/MS nº 1.820/2009."
+},
+"pe24sc-027": {
+"t": "sus-pol",
+"h": "A meta é sobre obesidade. Qual estratégia não tem relação com alimentação?",
+"e": "A meta da figura é reduzir ou deter a **obesidade**. Ambientes alimentares protegidos, acesso a alimentos in natura, redução de sal e açúcar e vigilância alimentar e nutricional ajudam nessa meta. **Notificar asma e DPOC** é estratégia para doenças respiratórias crônicas, sem relação com o objetivo.",
+"r": "Ministério da Saúde. Plano de Ações Estratégicas para o Enfrentamento das DCNT 2021–2030."
+},
+"pe24sc-028": {
+"t": "epi",
+"h": "Óbitos ÷ população × 1.000.",
+"e": "Taxa bruta de mortalidade = 80.000 ÷ 9.000.000 × 1.000 ≈ **8,9 por mil habitantes**, aproximadamente **9**.",
+"r": "RIPSA. Indicadores básicos para a saúde no Brasil."
+},
+"pe24sc-029": {
+"t": "epi",
+"h": "Contra-transição: as doenças infecciosas voltam ou persistem.",
+"e": "No Brasil, a transição epidemiológica não é linear. A **contra-transição** é o ressurgimento ou persistência de doenças infecciosas (dengue, tuberculose, malária, sífilis) **ao lado** da alta carga de doenças crônicas, num quadro de acúmulo ou superposição de agravos (Schramm et al.).",
+"r": "SCHRAMM, J. M. A. et al. Transição epidemiológica e o estudo de carga de doença no Brasil. Ciência & Saúde Coletiva, 2004."
+},
+"pe24sc-030": {
+"t": "epi",
+"h": "A torneira que enche, a caixa d'água e o ralo.",
+"e": "Na metáfora da caixa d'água: a torneira que enche é a **incidência** (casos novos, A), a água acumulada é a **prevalência** (casos existentes, B) e a saída são as **curas** (e também os óbitos, C). A prevalência aumenta quando entram mais casos e diminui quando saem.",
+"r": "ROUQUAYROL, M. Z. Epidemiologia & Saúde; GORDIS, L. Epidemiology."
+},
+"pe24sc-031": {
+"t": "smental",
+"h": "Na redução de danos, as ações giram em torno da abstinência?",
+"e": "A redução de danos **não organiza o cuidado em torno da abstinência**: define ações possíveis com cada usuário a partir do seu desejo e das suas possibilidades, sendo a abstinência uma possibilidade entre outras (E). Por isso A é incorreta. As demais descrevem a origem da RD com usuários de drogas injetáveis (B) e suas tecnologias relacionais (C, D).",
+"r": "Ministério da Saúde. A política do MS para atenção integral a usuários de álcool e outras drogas, 2003; Caderno de Atenção Básica nº 34 (Saúde Mental)."
+},
+"pe24sc-032": {
+"t": "smental",
+"h": "O psicólogo no NASF/eMulti trabalha com apoio matricial, não com clínica individual como centro.",
+"e": "No NASF, o psicólogo atua no **apoio matricial**: ações intersetoriais, pedagógicas e assistenciais compartilhadas, educação permanente, prevenção e promoção. Construir uma prática em que a **clínica individual seja o papel central** contraria essa lógica. Por isso C é incorreta.",
+"r": "Ministério da Saúde. Caderno de Atenção Básica nº 39 (NASF), 2014; CFP/CREPOP. Referências técnicas na Atenção Básica, 2019."
+},
+"pe24sc-033": {
+"t": "teorias",
+"h": "Minuchin: as exigências funcionais que organizam a família são visíveis ou invisíveis?",
+"e": "Para Salvador Minuchin, a **estrutura familiar** é o **conjunto invisível** de exigências funcionais que organiza a interação dos membros. \"Visível\" torna A incorreta. As demais estão na teoria sistêmica: o sintoma mantém regras e fronteiras (B), há manipulação da informação (C), o trabalho pode incluir família extensa e rede (D) e há padrões cristalizados que resistem à mudança (E).",
+"r": "MINUCHIN, S. Famílias: funcionamento e tratamento."
+},
+"pe24sc-034": {
+"t": "psican",
+"h": "O ursinho, o paninho: objetos entre o eu e o mundo.",
+"e": "Winnicott chama de **objeto transicional** (a prova escreveu \"transacional\") o primeiro objeto \"não-eu\" que o bebê elege, como um paninho ou ursinho. Ele ocupa um espaço intermediário entre o mundo subjetivo e a realidade objetiva e ajuda a lidar com a angústia de separação. Holding é o sustentar; handling, o manejo do corpo; mãe suficientemente boa é outro conceito.",
+"r": "WINNICOTT, D. W. O brincar e a realidade (cap. Objetos transicionais e fenômenos transicionais)."
+},
+"pe24sc-035": {
+"t": "desenv",
+"h": "A banca considerou as quatro corretas.",
+"e": "Para a banca, todas as proposições estão corretas: a adolescência deve ser vista no contexto familiar, histórico e cultural (I); o grupo dá segurança e participa da construção da subjetividade (II); oscilações de humor fazem parte do desenvolvimento normal (III); e há casos em que o adolescente recorre à automutilação (IV).",
+"f": "A redação do item IV pode sugerir que a automutilação é só \"chamar atenção\". Na prática clínica, a autolesão é sempre sinal de sofrimento e exige escuta e cuidado, nunca deve ser minimizada.",
+"r": "ABERASTURY, A.; KNOBEL, M. Adolescência normal; Gabarito oficial 2024."
+},
+"pe24sc-036": {
+"t": "desenv",
+"h": "Os modelos identificatórios passam dos pais para os pares.",
+"e": "Na **síndrome normal da adolescência** (Aberastury e Knobel), a **tendência grupal** é a busca de identificação com os pares, quando o grupo substitui os pais como modelo. Os outros sintomas da síndrome são intelectualizar e fantasiar, crises religiosas, deslocalização temporal, atitude social reivindicatória, entre outros.",
+"r": "ABERASTURY, A.; KNOBEL, M. Adolescência normal."
+},
+"pe24sc-037": {
+"t": "infancia",
+"h": "Baby blues é transitório e esperado.",
+"e": "O **baby blues** (tristeza materna) afeta **50% a 80%** das puérperas, surge nos primeiros dias após o parto e costuma desaparecer em cerca de **duas semanas**. É considerado um estado **não patológico**, coerente com a intensa elaboração psíquica do puerpério.",
+"w": {
+"A": "Não é perturbação psicopatológica.",
+"B": "É mais leve que a depressão pós-parto, não mais grave.",
+"C": "A frequência é bem maior que 30% e não é forma grave.",
+"D": "Dura dias, até cerca de duas semanas, não meses."
+},
+"r": "MALDONADO, M. T. Psicologia da gravidez; APA. DSM-5."
+},
+"pe24sc-038": {
+"t": "infancia",
+"h": "A gravidez muda ou não muda os papéis?",
+"e": "A gravidez traz **mudanças de papéis** familiares e sociais (tornar-se mãe, pai, avós), e essa é uma demanda frequente ao psicólogo. \"Mudanças inexistentes de papéis\" não é demanda do período, por isso B é incorreta. As demais são demandas típicas: medo de perda, medo do parto, quadros depressivos e ansiosos, alterações na libido e conflitos conjugais.",
+"r": "MALDONADO, M. T. Psicologia da gravidez; Caderno de Atenção Básica nº 32 (pré-natal)."
+},
+"pe24sc-039": {
+"t": "desenv",
+"h": "Elaborar é integrar o vivido como foi vivido.",
+"e": "O trabalho de elaboração no envelhecimento integra passado, presente e futuro **respeitando como as experiências foram vividas**, e não pela perspectiva de \"como deveriam ter sido\", que gera culpa e ruminação. Por isso B é incorreta. E traz a visão do envelhecimento como processo multidimensional e multidirecional, com ganhos e perdas (Baltes).",
+"r": "BALTES, P. (lifespan); literatura em psicogerontologia (NERI, A. L.)."
+},
+"pe24sc-040": {
+"t": "aval",
+"h": "Todos os fatores entram na escolha da hipótese.",
+"e": "Na escolha de uma hipótese diagnóstica, o profissional considera as condições clínicas, doenças intercorrentes, possíveis complicações e riscos, disponibilidade de recursos e custos, e a própria experiência. As cinco proposições estão corretas.",
+"r": "Literatura sobre raciocínio clínico e tomada de decisão diagnóstica; Gabarito oficial 2024."
+},
+"pe24sc-041": {
+"t": "basic",
+"h": "Qual escola trabalha com campo perceptivo e que método ela usa?",
+"e": "A ideia do sujeito como **campo perceptivo**, numa visão integrativa contra o elementarismo, é da **Gestalt**, que se apoia no método **fenomenológico**, não no histórico. Por isso C é incorreta. As demais correspondem ao estruturalismo/elementarismo (A), ao behaviorismo radical (B), às psicologias corporais (D) e à psicologia sócio-histórica (E).",
+"r": "BOCK, A. M. et al. Psicologias: uma introdução ao estudo de psicologia; FIGUEIREDO, L. C. Matrizes do pensamento psicológico."
+},
+"pe24sc-042": {
+"t": "teorias",
+"h": "\"Qualquer que seja a linha teórica.\" Transferência vale para todas?",
+"e": "O enunciado fala em pressupostos da escuta clínica \"qualquer que seja a linha teórica\". **Transferência** é um conceito da psicanálise, então tomá-la como paradigma universal de toda escuta clínica é incorreto. Por isso a banca marcou A. As demais são pressupostos transversais: o sujeito de sua história (B), a passagem da observação para a escuta (C), a demanda do sujeito e não da patologia (D) e o sigilo/segredo (E).",
+"r": "Gabarito oficial 2024; literatura sobre clínica ampliada e escuta."
+},
+"pe24sc-043": {
+"t": "teorias",
+"h": "Crítica à clínica centrada no indivíduo e na normatização.",
+"e": "A crítica contemporânea aponta uma clínica psicológica marcada pelo **individualismo** (sujeito isolado do contexto social) e pelo **higienismo** (normatização e adaptação dos comportamentos), herança do modelo médico.",
+"r": "MOREIRA, J. O. et al. O surgimento da clínica psicológica, 2007; DIMENSTEIN, M. (2001)."
+},
+"pe24sc-044": {
+"t": "infancia",
+"h": "Parentalidade: construção psíquica, não biológica.",
+"e": "Todas estão corretas: a filiação psíquica é marcada pelo sentimento de pertencimento (I); as funções materna e paterna podem ser exercidas por qualquer dos parceiros (II); o conceito de parentalidade desloca a ênfase do biológico para a construção psíquica e o vínculo (III); e as famílias homoparentais combinam o \"novo\" com referências do imaginário tradicional (IV).",
+"r": "ZORNIG, S. Tornar-se pai, tornar-se mãe: o processo de construção da parentalidade, 2010; Gabarito oficial 2024."
+},
+"pe24sc-045": {
+"t": "social",
+"h": "Organização com autoridade reconhecida pelas suas regras.",
+"e": "A Igreja é uma **organização**: estrutura formal, regras, hierarquia e objetivos. O poder do Papa é **legítimo**, pois decorre de um cargo reconhecido pelas normas da instituição (poder legítimo de French e Raven; autoridade racional-legal e tradicional de Weber). Ele não é reconhecido por \"todo ser humano\" e não é simplesmente autocrático.",
+"r": "FRENCH, J.; RAVEN, B. (bases do poder); ROBBINS, S. Comportamento organizacional."
+},
+"pe24sc-046": {
+"t": "social",
+"h": "Freud e Le Bon: indivíduos que se fundem e obedecem a um líder.",
+"e": "A torcida descrita, com perda da individualidade, contágio emocional, violência e obediência cega ao líder, corresponde à **massa** (Le Bon; Freud, *Psicologia das massas e análise do eu*, 1921). Na massa, os membros se ligam ao líder, que ocupa o lugar do ideal do ego, e se identificam entre si.",
+"r": "FREUD, S. Psicologia das massas e análise do eu (1921); LE BON, G. Psicologia das multidões."
+},
+"pe24sc-047": {
+"t": "social",
+"h": "Para Lewin, o que define o grupo é a interdependência.",
+"e": "Para Kurt Lewin, a essência do grupo **não é a semelhança ou a diferença** entre os membros, mas a **interdependência** entre eles. Ao falar em independência, C fica incorreta. As demais estão de acordo com a dinâmica de grupo lewiniana: o todo é mais que a soma das partes (A), há estrutura e interdependência (B), mudança numa parte afeta o todo (D) e a interação produz novos significados (E).",
+"r": "LEWIN, K. Problemas de dinâmica de grupo."
+},
+"pe24sc-048": {
+"t": "smental",
+"h": "A interdisciplinaridade já está consolidada entre psiquiatria e psicologia?",
+"e": "A RAPS busca garantir a circulação das pessoas pela cidade (A), linhas de cuidado em todos os níveis (B), a desconstrução do modelo manicomial (D) e participação social e transformação (E). A alternativa C é incorreta porque afirma que a interdisciplinaridade \"já se evidencia\" entre psiquiatra e psicólogo, como se estivesse consolidada e restrita a essas duas categorias. A proposta é ampla e ainda em construção.",
+"r": "Portaria GM/MS nº 3.088/2011 (RAPS); AMARANTE, P. Saúde mental e atenção psicossocial."
+},
+"pe24sc-049": {
+"t": "smental",
+"h": "Onde atua o Consultório na Rua?",
+"e": "O Consultório na Rua atende pessoas em situação de rua de todas as idades (A), usa redução de danos (B), desenvolve atividades in loco, de forma itinerante (C), e integra a Atenção Básica na RAPS (E). Atua em áreas de **alta vulnerabilidade**, não de baixa. Por isso D é incorreta.",
+"r": "PNAB 2017; Portaria GM/MS nº 122/2011 (eCR); Portaria GM/MS nº 3.088/2011."
+},
+"pe24sc-050": {
+"t": "etica",
+"h": "A vedação real é sobre relação com o atendido que prejudique o serviço.",
+"e": "Mesma questão da prova Hospitalar 2024. O art. 2º do Código veda induzir pessoas a recorrer aos serviços (A), prolongar desnecessariamente o atendimento (B), receber ou pagar por encaminhamento (C) e pleitear vantagens além dos honorários (D). A vedação verdadeira é estabelecer **com a pessoa atendida, familiar ou terceiro com vínculo com o atendido** relação que possa interferir negativamente **nos objetivos do serviço**. A redação de E (\"qualquer pessoa\", \"seu cotidiano\") a torna incorreta.",
+"r": "Resolução CFP nº 010/2005, art. 2º."
+}
+}
