@@ -4,7 +4,9 @@ Quiz de estudo para provas de **residência multiprofissional em Psicologia**, f
 
 ## Como usar
 
-Abra o `index.html` no navegador (Chrome, Edge ou Firefox). Não precisa de servidor nem de internet. As pastas `dados`, `img` e `fontes` precisam ficar junto do `index.html`.
+**Online:** https://magdielpaulo.github.io/psi-residencia/ (abre no celular, tablet ou computador).
+
+**Offline:** abra o `index.html` no navegador (Chrome, Edge ou Firefox). Não precisa de servidor nem de internet. As pastas `dados`, `img` e `fontes` precisam ficar junto do `index.html`.
 
 O progresso fica salvo no próprio navegador (`localStorage`). Em **Ajustes › Cópia de segurança** dá para baixar e importar um `.json` com tudo.
 
@@ -63,4 +65,4 @@ ferramentas/          scripts que geraram os dados a partir dos PDFs
 
 ## Uso
 
-Repositório privado, para estudo pessoal. As questões pertencem às respectivas bancas organizadoras.
+Projeto de estudo pessoal, sem fins comerciais. As questões, gabaritos e figuras pertencem às respectivas bancas organizadoras.

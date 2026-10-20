@@ -1,0 +1,12 @@
+Deixa o site mais intuitivo e limpa arquivos extras
+
+- Tocar numa prova abre a escolha entre Estudar e Simulado, com explicacao
+  de cada modo (antes eram dois botoes que pareciam iguais)
+- Etiqueta do modo e aviso na primeira questao do quiz
+- Guia "Como funciona" no inicio e botao "Como usar" no menu
+- "Treino misto" passa a se chamar "Treino rapido"
+- README: link do GitHub Pages e aviso de projeto publico
+- Remove LEIA-ME.txt (o README.md ja cobre)
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01RUBpj5H7ELur4DNEZuupk4

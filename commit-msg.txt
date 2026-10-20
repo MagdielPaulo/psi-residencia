@@ -1,0 +1,8 @@
+Psi Residência: quiz de provas de residência em Psicologia
+
+1.015 questões com gabarito oficial, dicas e explicações com fonte,
+caderno de erros, revisão espaçada, simulados, mapas mentais,
+flashcards, ranking do que mais cai e ajustes de acessibilidade.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01RUBpj5H7ELur4DNEZuupk4

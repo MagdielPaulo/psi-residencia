@@ -192,6 +192,74 @@ main:focus{outline:none}
 .exam .meter{grid-column:1}
 @media (max-width:600px){.exam{grid-template-columns:minmax(0,1fr)}.exam .acts{grid-row:auto;grid-column:1;justify-content:flex-start}.exam .acts .btn{flex:1}}
 
+.modeintro{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.45;padding:10px 14px;border-radius:12px;color:var(--ink)}
+.modeintro .ic{font-size:18px;line-height:1.2}
+/* guide */
+.guide{display:flex;flex-direction:column;gap:12px}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;counter-reset:st;margin:0;padding:0;list-style:none}
+@media (max-width:760px){.steps{grid-template-columns:minmax(0,1fr)}}
+.steps li{position:relative;padding:12px 14px 12px 50px;border:1px solid var(--line);border-radius:12px;background:var(--paper);font-size:13.5px;line-height:1.45;color:var(--muted)}
+.steps li b{display:block;color:var(--ink);font-size:14.5px;margin-bottom:2px}
+.steps li::before{counter-increment:st;content:counter(st);position:absolute;left:14px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:13px;background:var(--accent);color:var(--accent-ink)}
+.side .helpbtn{margin:10px 0 0;width:100%;justify-content:flex-start}
+
+/* ===== interface simples ===== */
+.simple{gap:18px}
+.hello .h1{margin-bottom:4px}
+.cont{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 18px;border-radius:var(--r);border:1px solid var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--card));color:inherit;font:inherit;cursor:pointer}
+.cont .ic{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:15px;flex:none}
+.cont b{display:block;font-size:16px}.cont span span{display:block;font-size:13.5px;color:var(--muted)}
+.big2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:620px){.big2{grid-template-columns:minmax(0,1fr)}}
+.bigc{display:flex;flex-direction:column;align-items:flex-start;gap:6px;text-align:left;padding:20px;border-radius:var(--r);background:var(--card);border:2px solid var(--line);color:inherit;font:inherit;cursor:pointer;min-height:170px}
+.bigc .ic{font-size:30px;line-height:1}
+.bigc b{font-size:20px;letter-spacing:-.01em}
+.bigc>span:not(.ic):not(.go){font-size:14.5px;color:var(--muted);line-height:1.45}
+.bigc .go{margin-top:auto;font-weight:700;font-size:14.5px}
+.bigc.m-estudo{border-color:var(--accent)}.bigc.m-estudo .go{color:var(--accent)}
+.bigc.m-simulado{border-color:var(--warn)}.bigc.m-simulado .go{color:var(--warn)}
+@media (max-width:620px){.bigc{min-height:0;padding:16px}}
+@media (hover:hover){.bigc:hover,.cont:hover{transform:translateY(-1px)}}
+.mini3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:620px){.mini3{grid-template-columns:minmax(0,1fr)}}
+.mini3 button{display:flex;align-items:center;gap:8px;padding:13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:inherit;font:inherit;font-weight:600;font-size:14.5px;text-align:left;cursor:pointer;min-height:48px}
+.mini3 button b{margin-left:auto;background:var(--bad);color:#fff;border-radius:99px;padding:1px 8px;font-size:12.5px}
+@media (hover:hover){.mini3 button:hover{border-color:var(--accent)}}
+/* mode switch */
+.modebox{display:flex;flex-direction:column;gap:8px;padding:12px;border-radius:var(--r);border:2px solid var(--accent);background:color-mix(in srgb,var(--accent) 7%,var(--card))}
+.modebox.m-simulado{border-color:var(--warn);background:color-mix(in srgb,var(--warn) 8%,var(--card))}
+.seg2{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--paper);border-radius:12px;padding:4px}
+.seg2 button{border:0;border-radius:9px;padding:11px 8px;font:inherit;font-weight:700;font-size:15.5px;background:none;color:var(--muted);cursor:pointer;min-height:46px}
+.seg2 button[aria-checked="true"]{background:var(--accent);color:var(--accent-ink);box-shadow:0 1px 3px rgb(0 0 0 / .2)}
+.m-simulado .seg2 button[aria-checked="true"]{background:var(--warn);color:var(--paper)}
+.modedesc{margin:0 4px;font-size:14px;line-height:1.45}
+.block .top2{justify-content:space-between}
+.block .chev,.exam .chev{font-size:24px;color:var(--muted);line-height:1}
+.card.exams{padding:6px 10px}
+button.exam{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;margin:0;padding:14px 8px;background:none;border:0;border-top:1px solid var(--line);border-radius:0;color:inherit;font:inherit;text-align:left;cursor:pointer}
+button.exam:first-child{border-top:0}
+@media (hover:hover){button.exam:hover{background:var(--paper)}}
+.ex-t{display:flex;flex-direction:column;gap:2px;min-width:0}
+.ex-t .nm{font-weight:650;font-size:15.5px}
+.ex-t .meta{font-size:13px;color:var(--muted)}
+.ex-go{flex:none;font-weight:700;font-size:14px;padding:8px 12px;border-radius:10px;background:var(--accent);color:var(--accent-ink);white-space:nowrap}
+.m-simulado ~ .exams .ex-go{background:var(--warn);color:var(--paper)}
+.btn.wide{width:100%;justify-content:center;min-height:48px;white-space:normal;text-align:center}
+details.more summary{cursor:pointer;font-weight:650}
+/* quiz simples */
+.modetag{font-weight:700;font-size:13.5px;padding:5px 12px;border-radius:99px;background:color-mix(in srgb,var(--accent) 16%,var(--card));border:1px solid var(--accent)}
+.modetag.m-simulado{background:color-mix(in srgb,var(--warn) 18%,var(--card));border-color:var(--warn)}
+.timer{font-size:17px}
+.qprog{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted)}
+.qprog b{color:var(--ink)}
+.qprog .bar{flex:1;height:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.qprog .bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.modeintro.m-simulado{border:1px solid var(--warn);border-style:solid;background:color-mix(in srgb,var(--warn) 10%,var(--card))}
+.modeintro.m-estudo{border:1px solid var(--accent);border-style:solid;background:color-mix(in srgb,var(--accent) 8%,var(--card))}
+#qfav{font-size:18px;min-width:44px}#qfav.on{color:var(--warn)}
+.notebox summary{cursor:pointer;font-size:14px;font-weight:600;color:var(--muted);padding:4px 0}
+.notebox[open] summary{margin-bottom:6px}
+
 /* quiz — reading typography scales with --fs / --lh / --measure */
 .qhead{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .qhead .pos{font-weight:700;margin-right:4px}
@@ -548,7 +616,7 @@ const TOPIC_NAMES = {
 const CAUSES = [["conteudo","Não sabia o conteúdo"],["comando","Li errado o comando (INCORRETA/EXCETO)"],["confundi","Confundi conceitos/autores"],["pegadinha","Caí numa pegadinha"],["atencao","Falta de atenção"],["chute","Chutei"]];
 
 /* ------------------------------------------------------------ state + persistence */
-const PREF_DEF = { theme:"auto", read:"inter", ui:"inter", fs:1, lh:"normal", measure:"normal", contrast:false, motion:"auto", zen:false, oneTap:false, mixN:20, name:"" };
+const PREF_DEF = { theme:"auto", read:"inter", ui:"inter", fs:1, lh:"normal", measure:"normal", contrast:false, motion:"auto", zen:false, oneTap:false, mixN:20, name:"", mode:"estudo" };
 const blank = () => ({ v:1, upd:0, xp:0, ans:{}, notes:{}, journal:"", days:{}, badges:{}, goal:20, sims:[], lastExam:null, hints:{}, fc:{}, qcards:[], mycards:[], fcdays:{}, prefs:{ ...PREF_DEF } });
 let S = blank();
 function normalize(obj){ const n = Object.assign(blank(), obj || {}); n.prefs = Object.assign({ ...PREF_DEF }, (obj && obj.prefs) || {}); return n; }
@@ -683,12 +751,12 @@ function openMore(){
   const nErr = 0; const m = document.createElement("div"); m.className = "modal sheet";
   const item = (id, t, d) => `<button class="sheet-i" data-go="${id}"><b>${t}</b><span>${d}</span></button>`;
   m.innerHTML = `<div class="card" role="dialog" aria-modal="true" aria-label="Mais opções"><div class="sheet-h"><b>Mais</b><button class="btn ghost sm" data-x aria-label="Fechar">Fechar</button></div>
-    ${item("notas", "Anotações", "Caderno livre e anotações das questões")}${item("stats", "Progresso", "Gráficos, temas fortes e fracos, conquistas")}${item("ajustes", "Ajustes", "Tema, fonte, acessibilidade, cópia e apagar dados")}</div>`;
+    ${item("notas", "Anotações", "Caderno livre e anotações das questões")}${item("stats", "Progresso", "Gráficos, temas fortes e fracos, conquistas")}${item("ajustes", "Ajustes", "Tema, fonte, acessibilidade, cópia e apagar dados")}<button class="sheet-i" data-help><b>Como usar</b><span>Explicação rápida de como o site funciona</span></button></div>`;
   document.body.appendChild(m);
   const close = () => { m.remove(); document.removeEventListener("keydown", onKey, true); };
   const onKey = e => { if (e.key === "Escape") close(); };
   document.addEventListener("keydown", onKey, true);
-  m.onclick = e => { if (e.target === m || e.target.closest("[data-x]") || e.target.closest("[data-go]")) close(); };
+  m.onclick = e => { if (e.target === m || e.target.closest("[data-x]") || e.target.closest("[data-go]")) close(); else if (e.target.closest("[data-help]")) { close(); openGuide(); } };
   m.querySelector(".sheet-i").focus();
 }
 /* ------------------------------------------------------------ header */
@@ -697,7 +765,7 @@ function renderHeader(){
   $("#lvl").innerHTML = `<b>${esc(L.name)}</b> · ${S.xp} XP`;
   $("#xpfill").style.width = (L.to > L.from ? Math.min(100, (S.xp - L.from) / (L.to - L.from) * 100) : 100) + "%";
   $("#streak").textContent = "🔥 " + streakDays();
-  $("#side").innerHTML = navHTML(false) + `<p class="kbd-tip">Atalhos na questão: <span class="kbd">A</span>–<span class="kbd">E</span> marcam, <span class="kbd">Enter</span> confirma, <span class="kbd">←</span> <span class="kbd">→</span> navegam.</p>`;
+  $("#side").innerHTML = navHTML(false) + `<button class="btn ghost sm helpbtn" data-help>❓ Como usar</button><p class="kbd-tip">Atalhos na questão: <span class="kbd">A</span>–<span class="kbd">E</span> marcam, <span class="kbd">Enter</span> confirma, <span class="kbd">←</span> <span class="kbd">→</span> navegam.</p>`;
   $("#bottom").innerHTML = navHTML(true) + `<button class="navbtn" id="moreBtn" aria-haspopup="dialog" ${["notas","stats","ajustes"].includes(VIEW) ? 'aria-current="page"' : ""}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></svg>Mais</button>`;
   $("#moreBtn").onclick = openMore;
   const hs = $("#hdrSet"); if (hs) { if (VIEW === "ajustes") hs.setAttribute("aria-current","page"); else hs.removeAttribute("aria-current"); }
@@ -724,86 +792,118 @@ function ring(p, label, value){
   return `<div class="ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="${R}" fill="none" stroke="var(--line)" stroke-width="10"/><circle cx="60" cy="60" r="${R}" fill="none" stroke="var(--accent)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.min(1,p))}"/></svg><div class="lbl"><div><b>${value}</b>${label}</div></div></div>`;
 }
 
+function durTxt(mins){ mins = Math.round(mins); const h = Math.floor(mins/60), m = mins % 60; return h ? h + "h" + (m ? String(m).padStart(2,"0") : "") : m + " min"; }
+function curMode(){ return S.prefs.mode === "simulado" ? "simulado" : "estudo"; }
+const MODE_TXT = {
+  estudo: { ic: "📖", t: "Estudar", d: "Você responde e já vê se acertou, a resposta certa e a explicação. Sem tempo." },
+  simulado: { ic: "⏱️", t: "Simulado", d: "Prova com cronômetro, igual ao dia. A nota e as respostas certas só aparecem no final." }
+};
+function modeSwitch(){
+  const m = curMode(), M = MODE_TXT[m];
+  return `<div class="modebox m-${m}">
+    <div class="seg2" role="radiogroup" aria-label="Modo">
+      ${["estudo","simulado"].map(k => `<button role="radio" aria-checked="${k===m}" data-setmode="${k}"><span aria-hidden="true">${MODE_TXT[k].ic}</span> ${MODE_TXT[k].t}</button>`).join("")}
+    </div>
+    <p class="modedesc">${M.d}</p>
+  </div>`;
+}
 function vHome(){
   const tdy = S.days[today()] || 0;
   const all = DATA.questions, st = statsFor(all);
   const acc = st.done ? Math.round(st.ok / st.done * 100) : 0;
   const nErr = all.filter(q => isWrongNow(q.id)).length, nRev = all.filter(q => due(q.id)).length;
-  const L = levelOf(S.xp);
   const last = S.lastExam && EXAMS[S.lastExam];
-  const pe = blockQs("pe"), pst = statsFor(pe);
-  return `<section class="view">
-    <div class="hero home-hero">
-      <div class="hh-t">
-        <span class="eyebrow">${new Date().toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"})}</span>
-        <h1 class="h1">${(() => { const nm = (S.prefs.name || "").trim(); return tdy >= S.goal ? `Meta de hoje cumprida${nm ? ", " + esc(nm) : ""}. Quer ir além?` : tdy ? `Bora continuar de onde parou${nm ? ", " + esc(nm) : ""}.` : `Pronta pra sessão de hoje${nm ? ", " + esc(nm) : ""}?`; })()}</h1>
-      </div>
-      <p class="sub hh-s">${all.length} questões de provas reais de residência em Psicologia, com gabarito oficial. Cada resposta alimenta seu caderno de erros e a revisão espaçada.</p>
-        <div class="row hh-b">
-          ${last ? `<button class="btn pri" data-exam="${last.id}" data-mode="estudo">Continuar · ${esc(EXAMS[last.id].short)}</button>` : `<button class="btn pri" data-block="pe">Começar pela SES-PE</button>`}
-          <button class="btn" data-go="provas">Escolher prova</button>
-        </div>
-      <div class="hh-r">${ring(tdy / S.goal, `de ${S.goal} hoje`, tdy)}</div>
+  let cont = "";
+  if (last){
+    const qs = examQs(last.id), k = qs.findIndex(q => !rec(q.id));
+    if (k >= 0) cont = `<button class="cont" data-exam="${last.id}" data-mode="estudo"><span class="ic" aria-hidden="true">▶</span><span><b>Continuar de onde parou</b><span>${esc((last.year ? last.year + " · " : "") + last.short)} · questão ${qs[k].num} de ${qs.length}</span></span></button>`;
+  }
+  const nm = (S.prefs.name || "").trim();
+  return `<section class="view simple">
+    <div class="hello">
+      <h1 class="h1">${nm ? "Oi, " + esc(nm) + "!" : "Bons estudos!"}</h1>
+      <p class="sub">${tdy ? `Hoje: <b>${tdy}</b> de ${S.goal} questões` : `Meta de hoje: ${S.goal} questões`}${st.done ? ` · ${acc}% de acerto no total` : ""}</p>
     </div>
-    <div class="kpis">
-      <div class="kpi"><b class="tab-nums">${st.done}</b><span>respondidas de ${all.length}</span></div>
-      <div class="kpi"><b class="tab-nums">${acc}%</b><span>de acerto geral</span></div>
-      <div class="kpi"><b class="tab-nums">${streakDays()}</b><span>dias seguidos</span></div>
-      <div class="kpi zen-hide"><b class="tab-nums">${S.xp}</b><span>XP · ${L.next ? (L.to - S.xp) + " p/ " + esc(L.next) : "nível máximo"}</span></div>
+    ${cont}
+    <div class="h2">O que você quer fazer?</div>
+    <div class="big2">
+      <button class="bigc m-estudo" data-start="estudo"><span class="ic" aria-hidden="true">📖</span><b>Estudar</b><span>${MODE_TXT.estudo.d}</span><span class="go">Escolher prova →</span></button>
+      <button class="bigc m-simulado" data-start="simulado"><span class="ic" aria-hidden="true">⏱️</span><b>Simulado</b><span>${MODE_TXT.simulado.d}</span><span class="go">Escolher prova →</span></button>
     </div>
-    <div class="quick">
-      <button class="qa" data-go="erros"><span class="t">Caderno de erros</span><span class="d">Questões que você errou e ainda não acertou de novo, com o motivo do erro.</span><span class="n">${nErr} pendentes</span></button>
-      <button class="qa" data-go="revisao"><span class="t">Revisão espaçada</span><span class="d">O que está na hora de rever pra não esquecer (1, 3, 7, 16 e 35 dias).</span><span class="n">${nRev} pra hoje</span></button>
-      <button class="qa" data-mix="1"><span class="t">Treino misto</span><span class="d">${S.prefs.mixN} questões sorteadas de todas as provas, priorizando as que você nunca viu.</span><span class="n">Sortear agora</span></button>
-    </div>
-    <div class="card" style="display:flex;flex-direction:column;gap:12px">
-      <div class="row" style="justify-content:space-between"><div><div class="eyebrow">Foco</div><div class="h2">SES-PE · a prova dela</div></div><span class="chip acc">${pst.done}/${pe.length} feitas</span></div>
-      <div class="meter"><i class="m-ok" style="width:${pst.ok/pe.length*100}%"></i><i class="m-bad" style="width:${pst.bad/pe.length*100}%"></i></div>
-      <div class="btngrid"><button class="btn sm" data-block="pe">Ver provas da SES-PE</button><button class="btn sm" data-mixblock="pe">Treino misto SES-PE</button><button class="btn sm" data-sim="pe">Simulado SES-PE (50 questões, 4h)</button></div>
+    <div class="mini3">
+      <button data-go="erros"><span aria-hidden="true">🔁</span> Revisar erros${nErr ? ` <b>${nErr}</b>` : ""}</button>
+      <button data-go="revisao"><span aria-hidden="true">🗓️</span> Revisão de hoje${nRev ? ` <b>${nRev}</b>` : ""}</button>
+      <button data-go="resumos"><span aria-hidden="true">🧠</span> Resumos e flashcards</button>
     </div>
   </section>`;
 }
-
 function blockCard(b){
   const qs = blockQs(b), st = statsFor(qs), B = BLOCKS[b];
   const exs = DATA.exams.filter(e => e.block === b);
   return `<button class="block" data-block="${b}">
-    <div class="top2"><canvas class="blotc" width="104" height="80" data-seed="${B.seed}"></canvas><div><div class="nm">${esc(B.name)}</div><div class="rg">${esc(B.region)} · ${exs.length} ${exs.length>1?"cadernos":"caderno"} · ${qs.length} questões</div></div></div>
+    <div class="top2"><div style="min-width:0"><div class="nm">${esc(B.name)}</div><div class="rg">${esc(B.region)} · ${exs.length} ${exs.length>1?"provas":"prova"}</div></div><span class="chev" aria-hidden="true">›</span></div>
     <div class="meter"><i class="m-ok" style="width:${st.ok/qs.length*100}%"></i><i class="m-bad" style="width:${st.bad/qs.length*100}%"></i></div>
-    <div class="small muted">${st.done ? `${st.done} respondidas · ${Math.round(st.ok/st.done*100)}% de acerto` : "Ainda não começou"}</div>
+    <div class="small muted">${st.done ? `${st.done} de ${qs.length} respondidas` : `${qs.length} questões`}</div>
   </button>`;
 }
 function vProvas(){
-  return `<section class="view">
-    <div><span class="eyebrow">Banco de provas</span><h1 class="h1">Escolha um bloco</h1><p class="sub">As provas estão separadas por banca e localidade. Dentro de cada bloco você treina caderno por caderno, faz simulado ou mistura tudo.</p></div>
+  return `<section class="view simple">
+    <div><h1 class="h1">Escolha a prova</h1><p class="sub">Primeiro escolha como quer fazer. Depois escolha o local da prova.</p></div>
+    ${modeSwitch()}
     <div class="blocks">${Object.keys(BLOCKS).map(blockCard).join("")}</div>
-    ${topicPicker()}
+    ${curMode() === "estudo" ? topicPicker() : ""}
   </section>`;
 }
 function topicPicker(){
   const counts = {}; DATA.questions.forEach(q => { if (q.answer !== "NULA") counts[q.topic] = (counts[q.topic]||0) + 1; });
   const items = Object.entries(counts).filter(([t]) => t !== "outros").sort((a,b) => b[1]-a[1]);
-  return `<div class="card" style="display:flex;flex-direction:column;gap:12px"><div><div class="eyebrow">Por tema</div><div class="h2">Treinar um assunto específico</div></div>
-  <div class="row">${items.map(([t,n]) => { const st = statsFor(DATA.questions.filter(q => q.topic === t)); return `<button class="btn sm" data-topic="${t}">${esc(TOPIC_NAMES[t]||t)} <span class="muted tab-nums">${st.done}/${n}</span></button>`; }).join("")}</div></div>`;
+  return `<details class="card more"><summary>Estudar por assunto <span class="muted small">(SUS, ética, psicopatologia…)</span></summary>
+  <div class="row" style="margin-top:12px">${items.map(([t,n]) => `<button class="btn sm" data-topic="${t}">${esc(TOPIC_NAMES[t]||t)}</button>`).join("")}</div></details>`;
 }
 let CUR_BLOCK = "pe";
 function vBloco(){
-  const b = CUR_BLOCK, B = BLOCKS[b];
+  const b = CUR_BLOCK, B = BLOCKS[b], m = curMode();
   const exs = DATA.exams.filter(e => e.block === b).sort((x,y) => (y.year||0) - (x.year||0));
-  return `<section class="view">
-    <div class="row"><button class="btn ghost sm" data-go="provas">← Blocos</button></div>
-    <div class="row" style="gap:14px;align-items:center"><canvas class="blotc" width="120" height="92" data-seed="${B.seed}" style="width:60px;height:46px"></canvas><div><span class="eyebrow">${esc(B.region)}</span><h1 class="h1">${esc(B.name)}</h1></div></div>
-    <p class="sub">${esc(B.desc)}</p>
-    <div class="row"><button class="btn pri" data-mixblock="${b}">Treino misto do bloco</button><button class="btn" data-sim="${b}">Simulado cronometrado</button></div>
-    <div class="card list">${exs.map(e => {
-      const qs = examQs(e.id), st = statsFor(qs);
-      return `<div class="exam"><div><div class="nm">${esc(e.year ? e.year + " · " : "")}${esc(e.title)}</div><div class="meta">${esc(e.banca)} · ${qs.length} questões · ${esc(e.keysrc)}${e.prelim ? " · <b>gabarito preliminar</b>" : ""}</div></div>
-      <div class="meter"><i class="m-ok" style="width:${st.ok/qs.length*100}%"></i><i class="m-bad" style="width:${st.bad/qs.length*100}%"></i></div>
-      <div class="acts"><button class="btn sm pri" data-exam="${e.id}" data-mode="estudo">${st.done && st.done < qs.length ? "Continuar" : st.done ? "Refazer" : "Estudar"}</button><button class="btn sm" data-exam="${e.id}" data-mode="simulado">Simulado</button></div></div>`;
+  return `<section class="view simple">
+    <div class="row"><button class="btn ghost sm" data-go="provas">← Voltar</button></div>
+    <div><span class="eyebrow">${esc(B.region)}</span><h1 class="h1">${esc(B.name)}</h1></div>
+    ${modeSwitch()}
+    <div class="card list exams">${exs.map(e => {
+      const qs = examQs(e.id), st = statsFor(qs), n = qs.length, k = qs.findIndex(q => !rec(q.id));
+      let act;
+      if (m === "simulado") act = "Fazer · " + durTxt(n * 4.8);
+      else act = !st.done ? "Começar" : k >= 0 ? "Continuar" : "Refazer";
+      return `<button class="exam" data-exam="${e.id}" data-mode="${m}">
+        <span class="ex-t"><span class="nm">${esc(e.year ? e.year + " · " : "")}${esc(e.short || e.title)}</span><span class="meta">${n} questões${st.done ? ` · ${st.done} feitas, ${Math.round(st.ok/st.done*100)}% de acerto` : ""}${e.prelim ? " · gabarito preliminar" : ""}</span></span>
+        <span class="ex-go">${act} ›</span></button>`;
     }).join("")}</div>
+    <button class="btn wide" ${m === "simulado" ? `data-sim="${b}"` : `data-mixblock="${b}"`}>🎲 ${m === "simulado" ? "Simulado misturando todas as provas deste local (até 50 questões)" : `Sortear ${S.prefs.mixN} questões de todas as provas deste local`}</button>
   </section>`;
 }
 
+function guideSteps(){
+  return `<ol class="steps">
+    <li><b>Escolha como quer fazer</b><i>Estudar</i>: vê a resposta certa e a explicação logo depois de cada questão. <i>Simulado</i>: cronômetro e nota só no final.</li>
+    <li><b>Escolha a prova</b>Toque no local (SES-PE, SES-DF…) e depois na prova.</li>
+    <li><b>Revise o que errou</b>Os erros ficam em <i>Revisar erros</i> e voltam na <i>Revisão de hoje</i> nos dias certos.</li>
+  </ol>`;
+}
+function openGuide(){
+  const m = document.createElement("div"); m.className = "modal sheet center";
+  m.innerHTML = `<div class="card" role="dialog" aria-modal="true" aria-label="Como usar"><div class="sheet-h"><b>Como usar</b><button class="btn ghost sm" data-x>Fechar</button></div>${guideSteps().replace('class="steps"','class="steps" style="grid-template-columns:minmax(0,1fr)"')}
+    <div class="small muted" style="padding:2px">Também tem: <b>Resumos</b> (mapas mentais, flashcards e o que mais cai), <b>Anotações</b> e <b>Ajustes</b> (tema escuro, tamanho da letra, apagar progresso). O progresso fica salvo sozinho neste navegador.</div>
+    <button class="btn pri" data-go="provas">Escolher uma prova</button></div>`;
+  modalize(m);
+}
+function modalize(m){
+  document.body.appendChild(m);
+  const prev = document.activeElement;
+  const close = () => { m.remove(); document.removeEventListener("keydown", onKey, true); if (prev && prev.focus) prev.focus({ preventScroll: true }); };
+  const onKey = e => { if (e.key === "Escape") { e.stopPropagation(); close(); } };
+  document.addEventListener("keydown", onKey, true);
+  m.onclick = e => { if (e.target === m || e.target.closest("[data-x],[data-go],[data-exam],[data-examerr]")) close(); };
+  const f = m.querySelector(".mode-i,[data-x]"); if (f) f.focus();
+}
 /* ------------------------------------------------------------ quiz runner */
 function startRun(ids, opts){
   ids = ids.filter(id => Q[id]);
@@ -853,7 +953,7 @@ function vQuiz(){
     const why = "";
     return `<button class="${cls}" data-opt="${L}" ${showing || q.answer === "NULA" && answered ? "disabled" : ""}><span class="L" aria-hidden="true">${L}</span><span><span class="sr">Alternativa ${L}: </span>${esc(o)}${showing && L === q.answer && q.answer !== "NULA" ? '<span class="mark">✓ gabarito</span>' : showing && L === sel && sel !== q.answer ? '<span class="mark">✗ sua resposta</span>' : ""}</span>${why}</button>`;
   }).join("");
-  const pal = RUN.ids.length > 1 ? `<details class="card" ${RUN.ids.length <= 60 ? "" : ""}><summary class="small" style="cursor:pointer;font-weight:600">Mapa da sessão (${Object.keys(RUN.done).length}/${RUN.ids.length})</summary><div class="palette" style="margin-top:12px">${RUN.ids.map((x, k) => {
+  const pal = RUN.ids.length > 1 ? `<details class="card" ${RUN.ids.length <= 60 ? "" : ""}><summary class="small" style="cursor:pointer;font-weight:600">Ir para outra questão (${Object.keys(RUN.done).length}/${RUN.ids.length} respondidas)</summary><div class="palette" style="margin-top:12px">${RUN.ids.map((x, k) => {
       let c = ""; const qq = Q[x];
       if (RUN.done[x]) c = isSim ? "p-ans" : (RUN.sel[x] === qq.answer ? "p-ok" : "p-bad");
       if (qq.answer === "NULA") c += " p-null";
@@ -874,13 +974,14 @@ function vQuiz(){
   return `<section class="view" style="gap:14px">
     <div class="qhead">
       <button class="btn ghost sm" id="qexit">← Sair</button>
-      <span class="pos tab-nums">${RUN.i+1}/${RUN.ids.length}</span>
-      <span class="chip ${q.area==="sus"?"sus":"acc"}">${q.area==="sus"?"SUS":"Psicologia"}</span>
-      <span class="chip">${esc(TOPIC_NAMES[q.topic]||"")}</span>
-      ${isSim ? `<span class="timer" id="timer">${timeLeft()}</span>` : ""}
+      <span class="modetag m-${isSim ? "simulado" : "estudo"}">${({simulado:"⏱️ Simulado", estudo:"📖 Estudando", erros:"🔁 Revisando erros", revisao:"🗓️ Revisão"})[RUN.mode] || "📖 Estudando"}</span>
+      ${isSim ? `<span class="timer" id="timer" title="Tempo restante">${timeLeft()}</span>` : ""}
     </div>
+    <div class="qprog"><span class="tab-nums">Questão <b>${RUN.i+1}</b> de ${RUN.ids.length}</span><span class="bar" aria-hidden="true"><i style="width:${(RUN.i+1)/RUN.ids.length*100}%"></i></span>
+    </div>
+    ${isSim ? `<div class="modeintro m-simulado" role="note"><span class="ic" aria-hidden="true">⏱️</span><span>Toque na alternativa e vá pra próxima. A resposta certa e a nota só aparecem quando você <b>entregar</b>.</span></div>` : !Object.keys(RUN.done).length && RUN.i === 0 ? `<div class="modeintro m-estudo" role="note"><span class="ic" aria-hidden="true">📖</span><span>Escolha uma alternativa e toque em <b>Ver resposta</b>. Logo abaixo aparece se acertou e a explicação.</span></div>` : ""}
     <div class="qcard">
-      <div class="small muted">${esc(examLabel(q))}${q.programs && q.programs.length > 1 ? " · comum a " + q.programs.length + " programas" : ""}</div>
+      <div class="small muted">${esc(examLabel(q))} · ${q.area==="sus"?"SUS":"Psicologia"}</div>
       ${q.context ? `<details class="ctx" ${showing ? "" : "open"}><summary>Texto de apoio</summary>${esc(q.context)}</details>` : ""}
       ${X.img ? `<div class="flag">Esta questão usava uma imagem na prova original, que não pôde ser reproduzida. ${esc(X.img === true ? "" : X.img)}</div>` : ""}
       ${q.img ? `<figure class="fig"><img src="${esc(q.img)}" alt="Figura da questão ${q.num}"></figure>` : ""}
@@ -889,21 +990,20 @@ function vQuiz(){
       <div class="opts">${opts}</div>
       ${RUN.hint[id] && X.h && !showing ? `<div class="hint"><b>Dica:</b> ${esc(X.h)}</div>` : ""}
       <div class="qactions">
-        ${!answered && !isSim && X.h && !RUN.hint[id] ? `<button class="btn sm" id="qhint">💡 Dica (acerto vale 6 XP)</button>` : ""}
-        ${!answered && !isSim ? `<button class="btn sm ghost" id="qcut" title="Riscar alternativas que você já descartou">✂︎ Riscar</button>` : ""}
+        ${!answered && !isSim && X.h && !RUN.hint[id] ? `<button class="btn sm" id="qhint">💡 Ver dica</button>` : ""}
+        ${!answered && !isSim ? `<button class="btn sm ghost" id="qcut" title="Riscar alternativas que você já descartou" aria-label="Riscar alternativas">✂︎ Riscar</button>` : ""}
         <span class="grow"></span>
         ${showing ? `<button class="btn sm ${S.qcards.includes(id)?"pri":""}" id="qcard" aria-pressed="${S.qcards.includes(id)}">${S.qcards.includes(id)?"🃏 Está nos flashcards":"🃏 Virar flashcard"}</button>` : ""}
-        <button class="btn sm ${r&&r.fav?"pri":""}" id="qfav" aria-pressed="${!!(r&&r.fav)}">${r&&r.fav?"★ Favorita":"☆ Favoritar"}</button>
-        ${!answered ? `<button class="btn pri" id="qconfirm" ${sel ? "" : "disabled"}>${isSim ? "Marcar" : "Confirmar"}</button>` : ""}
+        <button class="btn sm ghost ${r&&r.fav?"on":""}" id="qfav" aria-pressed="${!!(r&&r.fav)}" title="Favoritar" aria-label="Favoritar">${r&&r.fav?"★":"☆"}</button>
+        ${!answered && !isSim ? `<button class="btn pri" id="qconfirm" ${sel ? "" : "disabled"}>Ver resposta</button>` : ""}
       </div>
-      ${!answered ? `<div class="keys" aria-hidden="true"><span><span class="kbd">A</span>–<span class="kbd">E</span> marcar</span><span><span class="kbd">Enter</span> ${isSim ? "marcar" : "confirmar"}</span><span><span class="kbd">←</span> <span class="kbd">→</span> navegar</span>${!isSim && X.h ? `<span><span class="kbd">H</span> dica</span>` : ""}<span><span class="kbd">F</span> favoritar</span></div>` : ""}
       ${explHTML}
-      <div style="display:flex;flex-direction:column;gap:6px"><label for="qnote" class="small" style="font-weight:600">Minha anotação nesta questão</label><textarea id="qnote" class="note" placeholder="Ex.: decorar que a Conferência de Saúde é a cada 4 anos (Lei 8.142, art. 1º)">${esc(note)}</textarea></div>
+      <details class="notebox" ${note ? "open" : ""}><summary>📝 Minha anotação${note ? "" : " (opcional)"}</summary><textarea id="qnote" class="note" aria-label="Minha anotação nesta questão" placeholder="Ex.: decorar que a Conferência de Saúde é a cada 4 anos (Lei 8.142, art. 1º)">${esc(note)}</textarea></details>
     </div>
     <div class="navq">
       <button class="btn" id="qprev" ${RUN.i ? "" : "disabled"}>← Anterior</button>
-      ${isSim ? `<button class="btn" id="qfinish">Entregar simulado</button>` : ""}
-      <button class="btn ${answered || isSim ? "pri" : ""}" id="qnext">${RUN.i + 1 < RUN.ids.length ? (answered || isSim ? "Próxima →" : "Pular →") : (isSim ? "Entregar →" : "Concluir")}</button>
+      ${isSim ? `<button class="btn" id="qfinish">Entregar</button>` : ""}
+      <button class="btn ${answered || isSim ? "pri" : ""}" id="qnext">${RUN.i + 1 < RUN.ids.length ? (answered || isSim ? "Próxima →" : "Pular →") : (isSim ? "Entregar e ver nota" : "Concluir")}</button>
     </div>
     ${pal}
   </section>`;
@@ -1163,7 +1263,7 @@ function vAjustes(){
       <div class="h2">Estudo</div>
       ${setrow(`<label for="pname">Seu nome</label>`, "Aparece na saudação da tela inicial.", `<input id="pname" class="inp" maxlength="30" placeholder="Opcional" value="${esc(P.name)}" autocomplete="given-name">`)}
       ${setrow(`<label for="goal">Meta diária</label>`, "Quantas questões por dia contam como meta cumprida.", `<select class="sel" id="goal">${[10,15,20,30,40,50,80].map(n => `<option value="${n}" ${S.goal===n?"selected":""}>${n} questões</option>`).join("")}</select>`)}
-      ${setrow("Questões por treino misto", "", seg("mixN", [[10,"10"],[20,"20"],[30,"30"],[50,"50"]], P.mixN))}
+      ${setrow("Questões por treino rápido", "", seg("mixN", [[10,"10"],[20,"20"],[30,"30"],[50,"50"]], P.mixN))}
       ${setrow("Responder com um toque", "Tocar na alternativa já confirma, sem o botão Confirmar. Não vale para simulados.", sw("oneTap", P.oneTap, "Responder com um toque"))}
       ${setrow("Modo foco", "Esconde XP, nível e sequência de dias pra estudar sem distração.", sw("zen", P.zen, "Modo foco"))}
     </div>
@@ -1472,6 +1572,9 @@ document.addEventListener("keydown", e => {
 
 /* ------------------------------------------------------------ global actions */
 document.addEventListener("click", e => {
+  const sm = e.target.closest("[data-setmode]"); if (sm) { S.prefs.mode = sm.dataset.setmode; touch(); render(); const f = document.querySelector(`[data-setmode="${sm.dataset.setmode}"]`); if (f) f.focus({ preventScroll: true }); return; }
+  const sb = e.target.closest("[data-start]"); if (sb) { S.prefs.mode = sb.dataset.start; touch(); go("provas"); return; }
+  const h = e.target.closest("[data-help]"); if (h && !h.closest(".modal")) { openGuide(); return; }
   const t = e.target.closest("[data-exam],[data-block],[data-mix],[data-mixblock],[data-sim],[data-topic],[data-open],#redoWrong,#revRun,#favRun");
   if (!t) return;
   if (t.dataset.exam){
@@ -1480,8 +1583,8 @@ document.addEventListener("click", e => {
     if (mode === "simulado") startRun(qs.map(q => q.id), { mode: "simulado", title: "Simulado · " + (e2.year||"") + " " + e2.short, limit: qs.length * 4.8 * 60000, exam: t.dataset.exam });
     else startRun(qs.map(q => q.id), { mode: "estudo", title: (e2.year||"") + " · " + e2.short, exam: t.dataset.exam, resume: true });
   } else if (t.dataset.block){ CUR_BLOCK = t.dataset.block; go("bloco"); }
-  else if (t.dataset.mix){ startRun(mix(playable(DATA.questions), S.prefs.mixN), { mode: "estudo", title: "Treino misto" }); }
-  else if (t.dataset.mixblock){ const b = t.dataset.mixblock; startRun(mix(playable(blockQs(b)), S.prefs.mixN), { mode: "estudo", title: "Treino misto · " + BLOCKS[b].short }); }
+  else if (t.dataset.mix){ startRun(mix(playable(DATA.questions), S.prefs.mixN), { mode: "estudo", title: "Treino rápido" }); }
+  else if (t.dataset.mixblock){ const b = t.dataset.mixblock; startRun(mix(playable(blockQs(b)), S.prefs.mixN), { mode: "estudo", title: "Treino rápido · " + BLOCKS[b].short }); }
   else if (t.dataset.sim){ const b = t.dataset.sim; const qs = playable(blockQs(b)); const sus = shuffle(qs.filter(q => q.area === "sus")).slice(0, 20), psi = shuffle(qs.filter(q => q.area === "psi")).slice(0, 50 - Math.min(20, sus.length)); const ids = [...sus, ...psi].map(q => q.id); startRun(ids, { mode: "simulado", title: "Simulado · " + BLOCKS[b].short, limit: 4 * 3600000 }); }
   else if (t.dataset.topic){ const tp = t.dataset.topic; startRun(mix(playable(DATA.questions.filter(q => q.topic === tp)), S.prefs.mixN), { mode: "estudo", title: TOPIC_NAMES[tp] }); }
   else if (t.dataset.open){ startRun([t.dataset.open], { mode: "estudo", title: "Questão avulsa" }); }

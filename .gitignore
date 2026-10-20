@@ -4,5 +4,3 @@ desktop.ini
 __pycache__/
 *.pyc
 *.tmp
-enviar-para-github.bat
-commit-msg.txt
