@@ -9,6 +9,7 @@
 <style>
 /* Layout: phone-first study app — sticky top bar, one reading column, bottom tab bar on phones/tablets portrait, side nav on wide screens.
    Motif: Rorschach inkblots. Fonts are bundled in ./fontes so everything works offline. */
+@font-face{font-family:"DancingV";src:url("fontes/dancing-script-latin-wght-normal.woff2") format("woff2");font-weight:400 700;font-style:normal;font-display:swap}
 @font-face{font-family:"InterV";src:url("fontes/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
 @font-face{font-family:"InterV";src:url("fontes/inter-latin-wght-italic.woff2") format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
 @font-face{font-family:"LiterataV";src:url("fontes/literata-latin-wght-normal.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
@@ -20,7 +21,7 @@
 :root{
   /* light (default) */
   --paper:#f6f5f9; --card:#ffffff; --ink:#1c1a26; --muted:#5f5b6e; --line:#e2e0ea;
-  --accent:#0d7366; --accent-ink:#ffffff; --accent-soft:#ddf1ed;
+  --accent:#0d7366; --accent-ink:#ffffff; --accent-soft:#ddf1ed; --love:#b8336a;
   --blot:#2a2347;
   --ok:#1b7f45; --ok-soft:#e0f3e7; --bad:#b93c0b; --bad-soft:#fcebe2; --warn:#8a5a00; --warn-soft:#fbf1d6;
   --shadow:0 1px 2px rgb(28 26 38 / .05),0 4px 14px rgb(28 26 38 / .05);
@@ -40,18 +41,18 @@
 /* sepia: warm paper for long sessions */
 :root[data-theme="sepia"]{
   --paper:#f3ead6; --card:#fbf6ea; --ink:#33291c; --muted:#6b5c46; --line:#e2d6bb;
-  --accent:#2c6b5c; --accent-ink:#fffaf0; --accent-soft:#e3ecdc; --blot:#4a3a28;
+  --accent:#2c6b5c; --accent-ink:#fffaf0; --accent-soft:#e3ecdc; --blot:#4a3a28; --love:#a3345c;
   --ok:#2f6f2f; --ok-soft:#e5efd6; --bad:#a1400f; --bad-soft:#f7e2d0; --warn:#7f5600; --warn-soft:#f6e6bd;
   --shadow:0 1px 2px rgb(60 40 10 / .06),0 4px 14px rgb(60 40 10 / .06); color-scheme:light}
 /* dark: soft, never pure black/white */
 :root[data-theme="dark"]{
   --paper:#15141b; --card:#1e1c26; --ink:#e9e7f0; --muted:#a7a3b6; --line:#2f2c3b;
-  --accent:#5cc7b7; --accent-ink:#0a1f1c; --accent-soft:#16352f; --blot:#cfc8ee;
+  --accent:#5cc7b7; --accent-ink:#0a1f1c; --accent-soft:#16352f; --blot:#cfc8ee; --love:#f59bbb;
   --ok:#5bd68a; --ok-soft:#163222; --bad:#ff9466; --bad-soft:#3a2116; --warn:#f5c04a; --warn-soft:#352b12;
   --shadow:0 1px 2px rgb(0 0 0 / .3),0 6px 18px rgb(0 0 0 / .25); color-scheme:dark}
 @media (prefers-color-scheme:dark){:root:not([data-theme]){
   --paper:#15141b; --card:#1e1c26; --ink:#e9e7f0; --muted:#a7a3b6; --line:#2f2c3b;
-  --accent:#5cc7b7; --accent-ink:#0a1f1c; --accent-soft:#16352f; --blot:#cfc8ee;
+  --accent:#5cc7b7; --accent-ink:#0a1f1c; --accent-soft:#16352f; --blot:#cfc8ee; --love:#f59bbb;
   --ok:#5bd68a; --ok-soft:#163222; --bad:#ff9466; --bad-soft:#3a2116; --warn:#f5c04a; --warn-soft:#352b12;
   --shadow:0 1px 2px rgb(0 0 0 / .3),0 6px 18px rgb(0 0 0 / .25); color-scheme:dark}}
 /* high contrast: works on top of any theme */
@@ -204,9 +205,13 @@ main:focus{outline:none}
 .side .helpbtn{margin:10px 0 0;width:100%;justify-content:flex-start}
 
 /* ===== interface simples ===== */
-.capa{margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow)}
-.capa img{display:block;width:100%;height:auto;aspect-ratio:1024/460;object-fit:cover}
-@media (min-width:1100px){.capa img{max-height:380px;object-position:center top}}
+.capa2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);align-items:end;gap:8px 18px;padding:22px 22px 0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:linear-gradient(135deg,color-mix(in srgb,var(--love) 10%,var(--card)),var(--card) 55%,color-mix(in srgb,var(--accent) 8%,var(--card)))}
+.capa-txt{align-self:center;padding-bottom:18px;min-width:0}
+.capa-txt p{margin:0}
+.capa-txt .c1{font-weight:750;font-size:clamp(22px,3vw,36px);line-height:1.15;letter-spacing:-.02em;color:var(--ink)}
+.capa-txt .c2{font-family:"DancingV","Segoe Script","Brush Script MT",cursive;font-weight:600;font-size:clamp(24px,3.1vw,38px);line-height:1.15;color:var(--love);margin-top:10px}
+.capa2 img{display:block;width:100%;height:auto;max-height:300px;object-fit:contain;object-position:right bottom}
+@media (max-width:700px){.dbr{display:none}.capa2{grid-template-columns:minmax(0,1fr);padding:18px 16px 0;text-align:center}.capa-txt{padding-bottom:0}.capa2 img{max-height:210px;object-position:center bottom}}
 .simple{gap:18px}
 .hello .h1{margin-bottom:4px}
 .cont{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 18px;border-radius:var(--r);border:1px solid var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--card));color:inherit;font:inherit;cursor:pointer}
@@ -823,7 +828,7 @@ function vHome(){
   }
   const nm = (S.prefs.name || "").trim();
   return `<section class="view simple">
-    ${S.prefs.cover !== false ? `<figure class="capa"><img src="img/capa.jpg" alt="Desenho do casal estudando juntos, com a faixa: Força nos estudos, meu amor! Futura Residente de Psicologia" width="1024" height="460" decoding="async" onerror="this.parentNode.remove()"></figure>` : ""}
+    ${S.prefs.cover !== false ? `<div class="capa2"><div class="capa-txt"><p class="c1">Força nos estudos,<br class="dbr"> meu amor! <span aria-hidden="true">🧠❤️</span></p><p class="c2">Futura Residente<br class="dbr"> de Psicologia <span aria-hidden="true">✨</span></p></div><img src="img/capa-arte.webp" alt="Desenho do casal estudando juntos" width="${1100}" height="${Math.round(729*1100/1371)}" decoding="async" onerror="this.remove()"></div>` : ""}
     <div class="hello">
       <h1 class="h1">${nm ? "Oi, " + esc(nm) + "!" : "Bons estudos!"}</h1>
       <p class="sub">${tdy ? `Hoje: <b>${tdy}</b> de ${S.goal} questões` : `Meta de hoje: ${S.goal} questões`}${st.done ? ` · ${acc}% de acerto no total` : ""}</p>
@@ -1269,7 +1274,7 @@ function vAjustes(){
       ${setrow(`<label for="goal">Meta diária</label>`, "Quantas questões por dia contam como meta cumprida.", `<select class="sel" id="goal">${[10,15,20,30,40,50,80].map(n => `<option value="${n}" ${S.goal===n?"selected":""}>${n} questões</option>`).join("")}</select>`)}
       ${setrow("Questões por treino rápido", "", seg("mixN", [[10,"10"],[20,"20"],[30,"30"],[50,"50"]], P.mixN))}
       ${setrow("Responder com um toque", "Tocar na alternativa já confirma, sem o botão Confirmar. Não vale para simulados.", sw("oneTap", P.oneTap, "Responder com um toque"))}
-      ${setrow("Imagem da tela inicial", "Mostra o desenho de vocês no topo do Início. Pra trocar, substitua o arquivo img/capa.jpg.", sw("cover", S.prefs.cover !== false, "Mostrar imagem na tela inicial"))}
+      ${setrow("Imagem da tela inicial", "Mostra a mensagem e o desenho de vocês no topo do Início.", sw("cover", S.prefs.cover !== false, "Mostrar imagem na tela inicial"))}
       ${setrow("Modo foco", "Esconde XP, nível e sequência de dias pra estudar sem distração.", sw("zen", P.zen, "Modo foco"))}
     </div>
 

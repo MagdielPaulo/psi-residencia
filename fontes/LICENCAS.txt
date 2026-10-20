@@ -2,6 +2,7 @@ Fontes incluídas (todas sob SIL Open Font License 1.1):
 - Inter (Rasmus Andersson)
 - Literata (TypeTogether / Google)
 - Atkinson Hyperlegible (Braille Institute)
+- Dancing Script (Pablo Impallari)
 
 === Inter ===
 Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter) Inter-Italic[opsz,wght].ttf: Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
@@ -287,3 +288,7 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
+
+=== Dancing Script ===
+Copyright 2016 The Dancing Script Project Authors (https://github.com/googlefonts/DancingScript)
+Licenciada sob a SIL Open Font License, Version 1.1 (texto completo acima).
