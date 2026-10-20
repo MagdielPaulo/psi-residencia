@@ -204,6 +204,9 @@ main:focus{outline:none}
 .side .helpbtn{margin:10px 0 0;width:100%;justify-content:flex-start}
 
 /* ===== interface simples ===== */
+.capa{margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow)}
+.capa img{display:block;width:100%;height:auto;aspect-ratio:1024/460;object-fit:cover}
+@media (min-width:1100px){.capa img{max-height:380px;object-position:center top}}
 .simple{gap:18px}
 .hello .h1{margin-bottom:4px}
 .cont{display:flex;align-items:center;gap:14px;width:100%;text-align:left;padding:16px 18px;border-radius:var(--r);border:1px solid var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--card));color:inherit;font:inherit;cursor:pointer}
@@ -616,7 +619,7 @@ const TOPIC_NAMES = {
 const CAUSES = [["conteudo","Não sabia o conteúdo"],["comando","Li errado o comando (INCORRETA/EXCETO)"],["confundi","Confundi conceitos/autores"],["pegadinha","Caí numa pegadinha"],["atencao","Falta de atenção"],["chute","Chutei"]];
 
 /* ------------------------------------------------------------ state + persistence */
-const PREF_DEF = { theme:"auto", read:"inter", ui:"inter", fs:1, lh:"normal", measure:"normal", contrast:false, motion:"auto", zen:false, oneTap:false, mixN:20, name:"", mode:"estudo" };
+const PREF_DEF = { theme:"auto", read:"inter", ui:"inter", fs:1, lh:"normal", measure:"normal", contrast:false, motion:"auto", zen:false, oneTap:false, mixN:20, name:"", mode:"estudo", cover:true };
 const blank = () => ({ v:1, upd:0, xp:0, ans:{}, notes:{}, journal:"", days:{}, badges:{}, goal:20, sims:[], lastExam:null, hints:{}, fc:{}, qcards:[], mycards:[], fcdays:{}, prefs:{ ...PREF_DEF } });
 let S = blank();
 function normalize(obj){ const n = Object.assign(blank(), obj || {}); n.prefs = Object.assign({ ...PREF_DEF }, (obj && obj.prefs) || {}); return n; }
@@ -820,6 +823,7 @@ function vHome(){
   }
   const nm = (S.prefs.name || "").trim();
   return `<section class="view simple">
+    ${S.prefs.cover !== false ? `<figure class="capa"><img src="img/capa.jpg" alt="Desenho do casal estudando juntos, com a faixa: Força nos estudos, meu amor! Futura Residente de Psicologia" width="1024" height="460" decoding="async" onerror="this.parentNode.remove()"></figure>` : ""}
     <div class="hello">
       <h1 class="h1">${nm ? "Oi, " + esc(nm) + "!" : "Bons estudos!"}</h1>
       <p class="sub">${tdy ? `Hoje: <b>${tdy}</b> de ${S.goal} questões` : `Meta de hoje: ${S.goal} questões`}${st.done ? ` · ${acc}% de acerto no total` : ""}</p>
@@ -1265,6 +1269,7 @@ function vAjustes(){
       ${setrow(`<label for="goal">Meta diária</label>`, "Quantas questões por dia contam como meta cumprida.", `<select class="sel" id="goal">${[10,15,20,30,40,50,80].map(n => `<option value="${n}" ${S.goal===n?"selected":""}>${n} questões</option>`).join("")}</select>`)}
       ${setrow("Questões por treino rápido", "", seg("mixN", [[10,"10"],[20,"20"],[30,"30"],[50,"50"]], P.mixN))}
       ${setrow("Responder com um toque", "Tocar na alternativa já confirma, sem o botão Confirmar. Não vale para simulados.", sw("oneTap", P.oneTap, "Responder com um toque"))}
+      ${setrow("Imagem da tela inicial", "Mostra o desenho de vocês no topo do Início. Pra trocar, substitua o arquivo img/capa.jpg.", sw("cover", S.prefs.cover !== false, "Mostrar imagem na tela inicial"))}
       ${setrow("Modo foco", "Esconde XP, nível e sequência de dias pra estudar sem distração.", sw("zen", P.zen, "Modo foco"))}
     </div>
 
